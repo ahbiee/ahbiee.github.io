@@ -3,18 +3,38 @@
     <head>
         <meta charset="utf-8" />
         <title>Ahbiee's Website</title>
+    <link href="style/styles.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>Hello!</h1>
-        <h2>My test Image</h2>
-        <p>照片展示我在澳洲遊學的經歷</p>
-        <img src = "image/australia_show.JPG" alt = "test image of australia_show" width = 800 height = 500/>
-
-        <h2>My experiences</h2>
-        <ul>
-            <li>輔大資工班排1</li>
-            <li>多益855</li>
-        </ul>
-        <p><a href = "https://www.paypal.com/tw/home">And more...</a></p>
+        <main class="main-container">
+            <div class="vibe-banner">
+                <span>此頁面為 <strong>Vibe Coding</strong> 設計</span>
+            </div>
+            <section class="profile-section">
+                <img class="profile-img" src="image/australia_show.JPG" alt="個人照片" width = 600/>
+                <div class="profile-info">
+                    <h1>Hi, 我是 Ahbiee</h1>
+                    <p>輔仁大學資工系學生，熱愛網頁設計、資訊安全與AI。<br>持續學習、分享與成長。</p>
+                    <ul class="tags">
+                        <li>網頁設計</li>
+                        <li>競賽程式</li>
+                        <li>資訊安全</li>
+                        <li>人工智慧</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="exp-section">
+                <h2>經歷</h2>
+                <ul>
+                    <li>待定</li>
+                    <li>待定</li>
+                    <li>待定</li>
+                </ul>
+                <p>更多資訊請<a href="https://www.paypal.com/tw/home" target="_blank">點此</a>。</p>
+            </section>
+        </main>
     </body>
 </html>

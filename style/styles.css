@@ -1,0 +1,120 @@
+html {
+    font-size: 10px;
+    font-family: 'Segoe UI', 'Noto Sans TC', 'Noto Sans', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    background-color: #f5f6fa;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+    padding: 36px 28px 28px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.vibe-banner {
+    background: linear-gradient(90deg, #ffb347 0%, #ffcc80 100%);
+    color: #222;
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 0 14px 0;
+    border-radius: 14px;
+    margin-bottom: 10px;
+    letter-spacing: 1.2px;
+    box-shadow: 0 2px 8px rgba(255,179,71,0.10);
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    width: 100%;
+}
+
+.profile-img {
+    width: 160px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin-bottom: 8px;
+}
+
+.profile-info {
+    text-align: center;
+    width: 100%;
+}
+.profile-info h1 {
+    font-size: 2.2rem;
+    margin: 0 0 8px 0;
+    color: #ff9800;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.profile-info p {
+    font-size: 1.3rem;
+    color: #444;
+    margin-bottom: 10px;
+    line-height: 1.7;
+}
+.tags {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.tags li {
+    background: #ffe0b2;
+    color: #d2691e;
+    border-radius: 8px;
+    padding: 5px 14px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    box-shadow: 0 1px 4px rgba(255,179,71,0.08);
+}
+
+.exp-section {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+.exp-section h2 {
+    font-size: 1.7rem;
+    color: #ff9800;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+.exp-section ul {
+    margin: 0 0 12px 0;
+    padding: 0 0 0 18px;
+    color: #555;
+    font-size: 1.2rem;
+    text-align: left;
+    display: inline-block;
+}
+.exp-section a {
+    color: #d2691e;
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
