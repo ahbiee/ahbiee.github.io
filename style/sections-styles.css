@@ -1,0 +1,312 @@
+/* 基本區段樣式 */
+section {
+    padding: 6rem 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 4rem;
+    color: var(--text-color);
+}
+
+/* 自我介紹區塊樣式 */
+.intro-section {
+    text-align: center;
+    padding: 8rem 2rem;
+}
+
+.intro-section h1 {
+    font-size: 4.2rem;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+}
+
+.intro-section p {
+    font-size: 2rem;
+    line-height: 1.8;
+    color: var(--text-color);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Override older styles to ensure intro content is aligned and not full-bleed */
+.intro-section .profile-info {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    text-align: center !important;
+}
+
+.intro-section .profile-info h1 {
+    background: transparent !important;
+    display: block;
+    margin: 0 auto 1.5rem auto;
+    padding: 0;
+}
+
+.intro-section .profile-info p {
+    background: transparent !important;
+    margin: 0 auto;
+}
+
+/* 興趣區塊樣式 */
+.interests-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 0 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.interest-wrapper {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+
+.interest-card {
+    display: flex;
+    width: 100%;
+    border-radius: 1.5rem;
+    transition: transform 0.5s ease;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.interest-front {
+    padding: 3rem;
+    width: 100%;
+    transition: width 0.5s ease, padding 0.5s ease;
+}
+
+.interest-detail {
+    position: absolute;
+    top: 0;
+    right: -45%;
+    width: 40%;
+    height: 100%;
+    padding: 3rem;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 1.5rem;
+    transition: right 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    z-index: 50;
+    pointer-events: auto;
+}
+
+.detail-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.detail-text {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.interests-grid > .interest-wrapper:hover .interest-front,
+.interests-grid .interest-wrapper:focus-within .interest-front {
+    width: 58%;
+}
+
+.interests-grid > .interest-wrapper:hover .interest-detail,
+.interests-grid .interest-wrapper:focus-within .interest-detail {
+    right: 2rem;
+}
+
+/* 確保其他內容樣式保持不變 */
+.interest-card h3 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+}
+
+.interest-description {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.achievements h4 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.achievements ul {
+    list-style: none;
+    padding: 0;
+}
+
+.achievements li {
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+    padding-left: 2rem;
+    position: relative;
+    color: var(--text-color);
+}
+
+.interest-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(74,49,88,0.15);
+}
+
+.interest-card h3 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+}
+
+.interest-description {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.achievements h4 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.achievements ul {
+    list-style: none;
+    padding: 0;
+}
+
+.achievements li {
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+    padding-left: 2rem;
+    position: relative;
+    color: var(--text-color);
+}
+
+.achievements li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+}
+
+/* 經歷時間軸樣式 */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background: var(--accent-color);
+    top: 0;
+}
+
+.timeline-item {
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.timeline-content {
+    background: rgba(255,255,255,0.8);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(74,49,88,0.1);
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timeline-content h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+}
+
+.timeline-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.timeline-content li {
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+    color: var(--text-color);
+}
+
+/* 聯絡區塊樣式 */
+.contact-section {
+    text-align: center;
+}
+
+.contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-info p {
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.contact-button {
+    padding: 1rem 2.5rem;
+    border-radius: 3rem;
+    background: var(--accent-color);
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.contact-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(74,49,88,0.2);
+    background: #c49fff;
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+    .interests-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .timeline::before {
+        left: 0;
+    }
+
+    .timeline-content {
+        max-width: 100%;
+        margin-left: 2rem;
+    }
+
+    section {
+        padding: 4rem 1.5rem;
+    }
+}

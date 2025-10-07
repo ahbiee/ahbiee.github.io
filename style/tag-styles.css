@@ -1,0 +1,54 @@
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+    justify-content: center;
+}
+
+.tags li {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    padding: 0.8rem 1.6rem;
+    border-radius: 2rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    transition: all 0.3s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+.tags li::before {
+    content: attr(data-achievement);
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-20px);
+    background: rgba(255, 255, 255, 0.95);
+    color: var(--text-color);
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    white-space: nowrap;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 100;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(212,176,255,0.3);
+}
+
+.tags li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.tags li:hover::before {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}

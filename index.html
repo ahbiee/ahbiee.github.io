@@ -4,46 +4,128 @@
         <meta charset="utf-8" />
         <title>Ahbiee's Website</title>
     <link href="style/styles_final.css" rel="stylesheet" type="text/css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&display=swap" rel="stylesheet">
+    <link href="style/tag-styles.css" rel="stylesheet" type="text/css" />
+    <link href="style/banner-styles.css" rel="stylesheet" type="text/css" />
+    <link href="style/sections-styles.css" rel="stylesheet" type="text/css" />
+
     </head>
     <body>
-        <div class="vibe-banner">
-            <span>此頁面為 <strong>Vibe Coding</strong> 設計</span>
+        <div class="vibe-banner glass-card">
+            <span>此頁面為 Vibe Coding 設計</span>
         </div>
-        <section class="profile-section full-width">
-            <div class="profile-img-wrap">
-                <img class="profile-img" src="image/australia_show.JPG" alt="個人照片" width="600" />
-            </div>
+        <!-- 自我介紹區塊 -->
+        <section class="intro-section full-width glass-card">
             <div class="profile-info">
-                <h1>Hi, 我是 Ahbiee</h1>
-                <p>輔仁大學資工系學生，熱愛網頁設計、資訊安全與AI。<br>持續學習、分享與成長。</p>
-                <ul class="tags">
-                    <li>網頁設計</li>
-                    <li>競賽程式</li>
-                    <li>資訊安全</li>
-                    <li>人工智慧</li>
-                </ul>
+                <h1>Hi, 我是白侑恆 Ahbiee</h1>
+                <p>輔仁大學資工系學生，熱愛科技創新與自我挑戰。<br>堅信透過持續學習和實踐，能夠不斷突破自己的界限。</p>
             </div>
-        </section>
-        <section class="exp-section full-width">
-            <h2>經歷</h2>
-            <ul>
-                <li>待定</li>
-                <li>待定</li>
-                <li>待定</li>
-            </ul>
-            <p>更多資訊請<a href="https://www.paypal.com/tw/home" target="_blank">點此</a>。</p>
         </section>
 
-        <section class="dummy-section full-width">
-            <h2>關於我</h2>
-            <p>這是一段假文，僅供版面測試。Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nisl aliquam enim, euismod tincidunt nisi nisl euismod enim.</p>
-            <p>第二段假文：Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-            <p>第三段假文：Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod.</p>
-            <p>第四段假文：Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p>第五段假文：Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+        <!-- 個人興趣區塊 -->
+        <section class="interests-section full-width">
+            <h2>專業與興趣</h2>
+            <div class="interests-grid">
+                <div class="interest-wrapper">
+                    <div class="interest-card glass-card">
+                        <div class="interest-front">
+                            <h3>競賽程式設計<br>(目前正鑽研中)</h3>
+                            <p class="interest-description">熱愛學習各種演算法<br>提升競賽問題解決能力。</p>
+                            <div class="achievements">
+                                <h4>經歷</h4>
+                                <ul>
+                                    <li>CPE 程式能力檢定 3題</li>
+                                    <li>NCPC 全國大專程式設計競賽決賽</li>
+                                    <li>持續精進演算法能力</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="interest-detail">
+                            <img src="image/programming.jpg" alt="程式競賽照片" class="detail-image" />
+                            <p class="detail-text">在程式競賽的過程中，我學會了如何在壓力下思考和解決複雜問題。每一次的比賽都是成長機會。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="interest-wrapper">
+                    <div class="interest-card glass-card">
+                        <div class="interest-front">
+                            <h3>資訊安全</h3>
+                            <p class="interest-description">探索網路安全的奧秘<br>致力於資安知識的學習。</p>
+                            <div class="achievements">
+                                <h4>經歷</h4>
+                                <ul>
+                                    <li>Harvard CS50 網路安全課程</li>
+                                    <li>參加資訊安全研究社</li>
+                                    <li>持續關注最新資安趨勢</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="interest-detail">
+                            <img src="image/security.jpg" alt="資安學習照片" class="detail-image" />
+                            <p class="detail-text">資訊安全是一個永無止境的學習領域，透過實作與研究不斷提升技能與敏銳度。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="interest-wrapper">
+                    <div class="interest-card glass-card">
+                        <div class="interest-front">
+                            <h3>人工智慧</h3>
+                            <p class="interest-description">探索 AI 的無限可能<br>致力於理論與實作的結合。</p>
+                            <div class="achievements">
+                                <h4>經歷</h4>
+                                <ul>
+                                    <li>清華 MOOCS 人工智慧導論</li>
+                                    <li>使用 AI 了解其應用能力</li>
+                                    <li>持續探索 AI 應用領域</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="interest-detail">
+                            <img src="image/ai.jpg" alt="AI學習照片" class="detail-image" />
+                            <p class="detail-text">人工智慧領域日新月異，我樂於透過專案與實作深化理解並探索應用場景。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 經歷區塊 -->
+        <section class="experience-section full-width glass-card">
+            <h2>學習歷程</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>2024 年</h3>
+                        <ul>
+                            <li>開始研究資訊安全</li>
+                            <li>參與輔仁大學CPC、NISRA兩個學術性社團</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>2025 年</h3>
+                        <ul>
+                            <li>參與 NCPC 程式競賽</li>
+                            <li>完成 Harvard CS50 課程</li>
+                            <li>CPE 程式能力檢定</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 聯絡我區塊 -->
+        <section class="contact-section full-width glass-card">
+            <h2>與我聯繫</h2>
+            <div class="contact-info">
+                <p>如果您有任何想法交流，歡迎與我聯繫！</p>
+                <div class="contact-links">
+                    <a href="https://github.com/ahbiee" target="_blank" class="contact-button">GitHub</a>
+                    <a href="mailto:james35744@gmail.com" class="contact-button">Email</a>
+                </div>
+            </div>
         </section>
     </body>
 </html>
