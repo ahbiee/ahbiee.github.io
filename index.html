@@ -2,7 +2,8 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Ahbiee's Website</title>
+        <title>Ahbiee's Self-Introduction</title>
+    <link rel="icon" href="image/kirby.png" type="image/png" />
     <link href="style/styles_final.css" rel="stylesheet" type="text/css" />
     <link href="style/tag-styles.css" rel="stylesheet" type="text/css" />
     <link href="style/banner-styles.css" rel="stylesheet" type="text/css" />
@@ -10,96 +11,83 @@
 
     </head>
     <body>
+        <div id="top"></div>
+        <!-- 左側固定快速導覽 -->
+        <nav class="left-nav" aria-label="快速連結">
+            <a class="left-nav-btn" href="#top">回到頂部</a>
+            <a class="left-nav-btn" href="#interests">專業與興趣</a>
+            <a class="left-nav-btn" href="#experience">學習歷程</a>
+            <a class="left-nav-btn" href="#contact">與我聯繫</a>
+        </nav>
         <div class="vibe-banner glass-card">
-            <span>此頁面為 Vibe Coding 設計</span>
+            <span>此頁面透過 Vibe Coding 設計</span>
         </div>
-        <!-- 自我介紹區塊 -->
-        <section class="intro-section full-width glass-card">
+    <!-- 自我介紹區塊 -->
+    <section id="intro" class="intro-section full-width glass-card">
             <div class="profile-info">
                 <h1>Hi, 我是白侑恆 Ahbiee</h1>
-                <p>輔仁大學資工系學生，熱愛科技創新與自我挑戰。<br>堅信透過持續學習和實踐，能夠不斷突破自己的界限。</p>
+                <p>目前就讀於輔仁大學資工系，熱愛科技創新與自我挑戰<br>堅信透過持續學習和實踐，能夠不斷突破自己的界限<br><br>以下是我的自我介紹與個人經歷</p>
             </div>
         </section>
 
-        <!-- 個人興趣區塊 -->
-        <section class="interests-section full-width">
+    <!-- 個人興趣區塊 -->
+    <section id="interests" class="interests-section full-width">
             <h2>專業與興趣</h2>
+            <div class="profile-info"><p class="section-subtitle">我很享受寫程式的過程，尤其是解題的時候常常像在玩遊戲破關！</p></div>
             <div class="interests-grid">
-                <div class="interest-wrapper">
-                    <div class="interest-card glass-card">
-                        <div class="interest-front">
-                            <h3>競賽程式設計<br>(目前正鑽研中)</h3>
-                            <p class="interest-description">熱愛學習各種演算法<br>提升競賽問題解決能力。</p>
-                            <div class="achievements">
-                                <h4>經歷</h4>
-                                <ul>
-                                    <li>CPE 程式能力檢定 3題</li>
-                                    <li>NCPC 全國大專程式設計競賽決賽</li>
-                                    <li>持續精進演算法能力</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="interest-detail">
-                            <img src="image/programming.jpg" alt="程式競賽照片" class="detail-image" />
-                            <p class="detail-text">在程式競賽的過程中，我學會了如何在壓力下思考和解決複雜問題。每一次的比賽都是成長機會。</p>
+                <div class="interest-card glass-card">
+                    <div class="interest-content">
+                        <h3>競賽程式設計<br>(目前正致力學習)</h3>
+                        <p class="interest-description">熱愛學習各種演算法<br>提升競賽問題解決能力。</p>
+                        <div class="achievements">
+                            <h4>經歷</h4>
+                            <ul>
+                                <li>CPE 程式能力檢定 3題</li>
+                                <li>NCPC 全國大專程式設計競賽決賽</li>
+                                <li>透過網路課程自學，持續精進演算法能力</li>
+                            </ul>
                         </div>
                     </div>
+                    <img src="image/programming.jpg" alt="參與NCPC決賽" class="detail-image" />
                 </div>
 
-                <div class="interest-wrapper">
-                    <div class="interest-card glass-card">
-                        <div class="interest-front">
-                            <h3>資訊安全</h3>
-                            <p class="interest-description">探索網路安全的奧秘<br>致力於資安知識的學習。</p>
-                            <div class="achievements">
-                                <h4>經歷</h4>
-                                <ul>
-                                    <li>Harvard CS50 網路安全課程</li>
-                                    <li>參加資訊安全研究社</li>
-                                    <li>持續關注最新資安趨勢</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="interest-detail">
-                            <img src="image/security.jpg" alt="資安學習照片" class="detail-image" />
-                            <p class="detail-text">資訊安全是一個永無止境的學習領域，透過實作與研究不斷提升技能與敏銳度。</p>
+                <div class="interest-card glass-card">
+                    <div class="interest-content">
+                        <h3>資訊安全<br>(花費課餘時間研究)</h3>
+                        <p class="interest-description">探索網路安全的奧秘<br>致力於資安知識的學習。</p>
+                        <div class="achievements">
+                            <h4>經歷</h4>
+                            <ul>
+                                <li>自學修習Harvard CS50 網路安全課程</li>
+                                <li>參加資訊安全研究社</li>
+                                <li>持續了解各種資安攻擊手法</li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-
-                <div class="interest-wrapper">
-                    <div class="interest-card glass-card">
-                        <div class="interest-front">
-                            <h3>人工智慧</h3>
-                            <p class="interest-description">探索 AI 的無限可能<br>致力於理論與實作的結合。</p>
-                            <div class="achievements">
-                                <h4>經歷</h4>
-                                <ul>
-                                    <li>清華 MOOCS 人工智慧導論</li>
-                                    <li>使用 AI 了解其應用能力</li>
-                                    <li>持續探索 AI 應用領域</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="interest-detail">
-                            <img src="image/ai.jpg" alt="AI學習照片" class="detail-image" />
-                            <p class="detail-text">人工智慧領域日新月異，我樂於透過專案與實作深化理解並探索應用場景。</p>
-                        </div>
-                    </div>
+                    <img src="image/security.jpg" alt="參與資安金盾獎" class="detail-image" />
                 </div>
             </div>
         </section>
 
-        <!-- 經歷區塊 -->
-        <section class="experience-section full-width glass-card">
+    <!-- 經歷區塊 -->
+    <section id="experience" class="experience-section full-width glass-card">
             <h2>學習歷程</h2>
+            <div class="profile-info"><p class="section-subtitle">我從2024 9月開始接觸程式語言，目前正廣泛探索自己的興趣領域</p></div>
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <h3>2024 年</h3>
                         <ul>
-                            <li>開始研究資訊安全</li>
+                            <li>參與智慧鐵人競賽(IICC)，進入全球總決賽</li>
+                            <li>進入輔仁大學，開始學習程式基礎觀念</li>
                             <li>參與輔仁大學CPC、NISRA兩個學術性社團</li>
+                            <li>考取各種英語能力檢定
+                                <ul>
+                                    <li>● 學測英文14級</li>
+                                    <li>● 多益 855分</li>
+                                    <li>● 培力英檢 菁英三獎</li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -107,25 +95,67 @@
                     <div class="timeline-content">
                         <h3>2025 年</h3>
                         <ul>
-                            <li>參與 NCPC 程式競賽</li>
-                            <li>完成 Harvard CS50 課程</li>
-                            <li>CPE 程式能力檢定</li>
+                            <li>學習一學期程式後報考APCS，取得 觀念5 / 實作3 的成績</li>
+                            <li>參加輔大偏鄉教育學伴計畫，榮獲優良大學辦與傑出大學伴</li>
+                            <li>參與 NCPC、TOPC、NCPC 程式競賽，NCPC進入決賽</li>
+                            <li>參加iThome鐵人賽，自學Java 30天，完成貪食蛇專案</li>
+                            <li>受邀成為輔大CPC社團講師</li>
+                            <li>初次挑戰 CPE 程式能力檢定達到3題</li>
+                            <li>自學完成 Harvard CS50 Introduction to Cybersecurity 課程</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- 聯絡我區塊 -->
-        <section class="contact-section full-width glass-card">
+    <!-- 聯絡我區塊 -->
+    <section id="contact" class="contact-section full-width glass-card">
             <h2>與我聯繫</h2>
             <div class="contact-info">
-                <p>如果您有任何想法交流，歡迎與我聯繫！</p>
+                <p>如果您有任何想法想與我交流，歡迎和我聯繫！</p>
                 <div class="contact-links">
-                    <a href="https://github.com/ahbiee" target="_blank" class="contact-button">GitHub</a>
-                    <a href="mailto:james35744@gmail.com" class="contact-button">Email</a>
+                    <a href="https://github.com/ahbiee" target="_blank" class="contact-button">
+                        <img src="image/github.png" alt="GitHub" class="contact-icon" />
+                        <span>GitHub</span>
+                    </a>
+                    <a href="mailto:james35744@gmail.com" class="contact-button">
+                        <img src="image/gmail.png" alt="Email" class="contact-icon" />
+                        <span>Email</span>
+                    </a>
                 </div>
             </div>
         </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        /* Ensure site.js loads after jQuery. If the CDN jQuery is blocked (or SRI fails),
+           dynamically load jQuery then site.js as a fallback. */
+        (function(){
+            function loadScript(src, cb){
+                var s = document.createElement('script');
+                s.src = src;
+                s.onload = s.onerror = function(){ if(cb) cb(); };
+                document.head.appendChild(s);
+            }
+
+            function ensureAndLoadSite(){
+                if (typeof jQuery === 'undefined') {
+                    // try loading jQuery again without SRI
+                    loadScript('https://code.jquery.com/jquery-3.6.0.min.js', function(){
+                        loadScript('js/site.js');
+                    });
+                } else {
+                    loadScript('js/site.js');
+                }
+            }
+
+            // small timeout to allow the initially-declared <script> a moment to run
+            if (typeof jQuery === 'undefined') {
+                // schedule microtask to allow sync parse to finish
+                setTimeout(ensureAndLoadSite, 50);
+            } else {
+                ensureAndLoadSite();
+            }
+        })();
+    </script>
     </body>
 </html>

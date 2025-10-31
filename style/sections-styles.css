@@ -5,6 +5,52 @@ section {
     max-width: 1200px;
 }
 
+/* anchor offset so sections are not hidden behind fixed elements */
+section {
+    scroll-margin-top: 90px;
+}
+
+/* 左側固定快速導覽 */
+.left-nav {
+    position: fixed;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    z-index: 1200;
+}
+
+.left-nav-btn {
+    display: inline-block;
+    background: rgba(255,255,255,0.9);
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 0.6rem 0.9rem;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    box-shadow: 0 2px 8px rgba(74,49,88,0.06);
+    transition: background 0.2s ease, transform 0.12s ease;
+}
+
+.left-nav-btn:hover,
+.left-nav-btn:focus-visible {
+    background: #cfeeff; /* 淡藍色 hover 背景 */
+    color: #000; /* 更顯眼的文字顏色，改為黑色 */
+    transform: translateY(-2px);
+}
+
+/* keep a visible focus outline for keyboard users; remove persistent mouse-focus visuals */
+.left-nav-btn:focus {
+    outline: none;
+}
+
+/* hide left nav on small screens */
+@media (max-width: 768px) {
+    .left-nav { display: none; }
+}
+
 section h2 {
     text-align: center;
     font-size: 2.8rem;
@@ -30,6 +76,16 @@ section h2 {
     color: var(--text-color);
     max-width: 800px;
     margin: 0 auto;
+}
+
+/* section subtitle used under section headings (small descriptive text) */
+.section-subtitle {
+    font-size: 1.8rem;
+    line-height: 1.7;
+    color: var(--text-color);
+    max-width: 900px;
+    margin: 0 auto 2rem auto;
+    text-align: center;
 }
 
 /* Override older styles to ensure intro content is aligned and not full-bleed */
@@ -70,42 +126,30 @@ section h2 {
 
 .interest-card {
     display: flex;
-    width: 100%;
-    border-radius: 1.5rem;
-    transition: transform 0.5s ease;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-}
-
-.interest-front {
-    padding: 3rem;
-    width: 100%;
-    transition: width 0.5s ease, padding 0.5s ease;
-}
-
-.interest-detail {
-    position: absolute;
-    top: 0;
-    right: -45%;
-    width: 40%;
-    height: 100%;
-    padding: 3rem;
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
-    border-radius: 1.5rem;
-    transition: right 0.5s ease;
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: stretch;
     gap: 2rem;
-    z-index: 50;
-    pointer-events: auto;
+    width: 100%;
+    border-radius: 1.5rem;
+    transition: none;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.interest-content {
+    width: 55%;
 }
 
 .detail-image {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+    width: 45%;
+    max-width: 520px;
+    height: auto;
+    max-height: 360px;
+    object-fit: contain;
+    background: rgba(0,0,0,0.02);
     border-radius: 1rem;
+    align-self: center;
 }
 
 .detail-text {
@@ -114,15 +158,8 @@ section h2 {
     color: var(--text-color);
 }
 
-.interests-grid > .interest-wrapper:hover .interest-front,
-.interests-grid .interest-wrapper:focus-within .interest-front {
-    width: 58%;
-}
+/* Remove hover-slide behavior: details are visible by default. */
 
-.interests-grid > .interest-wrapper:hover .interest-detail,
-.interests-grid .interest-wrapper:focus-within .interest-detail {
-    right: 2rem;
-}
 
 /* 確保其他內容樣式保持不變 */
 .interest-card h3 {
@@ -157,10 +194,7 @@ section h2 {
     color: var(--text-color);
 }
 
-.interest-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(74,49,88,0.15);
-}
+/* Hover animation removed as requested */
 
 .interest-card h3 {
     font-size: 2.2rem;
@@ -246,6 +280,16 @@ section h2 {
     padding: 0;
 }
 
+/* 子項目 (nested lists) 前增加垂直間距，讓子項目與父項目之間有空行 */
+.timeline-content ul ul {
+    margin-top: 1rem;
+    padding-left: 1.6rem; /* 輕微縮排 */
+}
+
+.timeline-content ul ul li {
+    margin-top: 0.4rem;
+}
+
 .timeline-content li {
     font-size: 1.4rem;
     margin-bottom: 0.8rem;
@@ -255,6 +299,15 @@ section h2 {
 /* 聯絡區塊樣式 */
 .contact-section {
     text-align: center;
+}
+
+/* 縮短「學習歷程」與「聯絡我」之間的距離為原本的 80% */
+.experience-section {
+    padding-bottom: 4.8rem; /* 原為 6rem -> 80% */
+}
+
+.contact-section {
+    padding-top: 4.8rem; /* 原為 6rem -> 80% */
 }
 
 .contact-info {
@@ -285,6 +338,20 @@ section h2 {
     transition: all 0.3s ease;
 }
 
+/* 圖示放在文字左側的樣式 */
+.contact-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.contact-icon {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    display: inline-block;
+}
+
 .contact-button:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(74,49,88,0.2);
@@ -294,7 +361,23 @@ section h2 {
 /* 響應式設計 */
 @media (max-width: 768px) {
     .interests-grid {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .interest-card {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 2rem;
+    }
+
+    .interest-card .detail-image {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        margin-top: 1rem;
+        max-height: 320px;
     }
 
     .timeline::before {
@@ -309,4 +392,35 @@ section h2 {
     section {
         padding: 4rem 1.5rem;
     }
+
+    /* mobile: reduce spacing between experience and contact to 80% (3.2rem) */
+    .experience-section {
+        padding-bottom: 3.2rem;
+    }
+
+    .contact-section {
+        padding-top: 3.2rem;
+    }
+}
+
+/* scrollspy active style for left-nav buttons */
+.left-nav-btn.active {
+    background: #cfeeff; /* 淡藍色為 active 狀態 */
+    color: #000; /* 文字改為黑色以提高對比 */
+    transform: translateY(-2px);
+}
+
+/* Fix: some ancestor (body) uses backdrop-filter which can create a containing block
+   causing position:fixed to behave relative to that ancestor instead of the viewport.
+   Undo backdrop-filter on body and reinforce left-nav positioning so it truly follows
+   the viewport center. */
+body {
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+}
+
+.left-nav {
+    /* use viewport units to guarantee vertical centering relative to viewport */
+    top: 50vh !important;
+    transform: translateY(-50%) !important;
 }
