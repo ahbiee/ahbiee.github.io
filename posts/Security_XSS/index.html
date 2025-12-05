@@ -45,7 +45,7 @@
 <meta property="og:image" content="https://ahbiee.github.io/images/XSS/DOM_alert.png">
 <meta property="og:image" content="https://ahbiee.github.io/images/XSS/DOM_source2.png">
 <meta property="article:published_time" content="2025-12-05T11:04:04.000Z">
-<meta property="article:modified_time" content="2025-12-05T13:25:30.386Z">
+<meta property="article:modified_time" content="2025-12-05T13:41:24.205Z">
 <meta property="article:author" content="ahbiee">
 <meta property="article:tag" content="資訊安全">
 <meta name="twitter:card" content="summary">
@@ -277,7 +277,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2025-12-05 19:04:04 / Modified: 21:25:30" itemprop="dateCreated datePublished" datetime="2025-12-05T19:04:04+08:00">2025-12-05</time>
+      <time title="Created: 2025-12-05 19:04:04 / Modified: 21:41:24" itemprop="dateCreated datePublished" datetime="2025-12-05T19:04:04+08:00">2025-12-05</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -312,6 +312,7 @@
     
     <div class="post-body" itemprop="articleBody"><span id="more"></span>
 
+<p>總結來說，XSS(Cross Site Scripting)就是透過各種方式進行惡意script的注入與執行</p>
 <h1 id="Reflected-反射型"><a href="#Reflected-反射型" class="headerlink" title="Reflected 反射型"></a>Reflected 反射型</h1><h2 id="介紹"><a href="#介紹" class="headerlink" title="介紹"></a>介紹</h2><p>反射型XSS的主要手段是透過網站的<code>搜尋功能</code><br>假設我們在youtube搜尋<code>音樂</code>，那youtube的URL欄就會顯示</p>
 <blockquote>
 <p><a target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query=%E9%9F%B3%E6%A8%82">https://www.youtube.com/results?search_query=音樂</a></p>
@@ -329,7 +330,7 @@
 <p>會發現網頁跳出通過lab的通知<br><img src="/images/XSS/stored_passed.png" alt="passed"></p>
 <p>回到網頁的文章，會發現跳出alert的框框<br><img src="/images/XSS/stored_alert.png" alt="alert"></p>
 <p>如此一來就代表我們就成功實作了Stored XSS，script成功被保存在伺服器中<br>如果有心人士將script的內部改成惡意代碼<br>那麼每一個訪問到該網站的人都會被影響（非自願!）</p>
-<h1 id="DOM"><a href="#DOM" class="headerlink" title="DOM"></a>DOM</h1><p>某些網站為了方便使用者跳轉頁面並減少對伺服器的請求<br>會直接在頁面下使用<code>#</code>的分頁，在客戶端直接進行讀取，因此不會在伺服器端被觸發<br>而攻擊者想要攻擊就需要同時具備屬性與方法<br>例如document.URL是一個屬性，document.write則是對應的方法，可以往網頁中寫內容</p>
+<h1 id="DOM"><a href="#DOM" class="headerlink" title="DOM"></a>DOM</h1><p>某些網站為了方便使用者跳轉頁面並減少對伺服器的請求<br>會直接在頁面下使用<code>#</code>的分頁，在客戶端直接進行讀取，因此不會在伺服器端被觸發<br>而攻擊者想要攻擊就需要同時具備來源(Source)與方法(Sink)<br>例如location.hash是一個來源，document.write則是可以寫入數據的方法<br>資料將Source作為入口，未經過伺服器端處理後直接執行了Sink</p>
 <h2 id="範例-2"><a href="#範例-2" class="headerlink" title="範例"></a>範例</h2><p><a target="_blank" rel="noopener" href="https://xss-game.appspot.com/">https://xss-game.appspot.com/</a><br>與Reflected XSS相同的網站，以第三題為例</p>
 <p>開啟image 1，會發現網址有#1<br><img src="/images/XSS/DOM_img1.png" alt="img1"></p>
 <p>開啟image 2，會發現網址有#2<br><img src="/images/XSS/DOM_img2.png" alt="img2"></p>
