@@ -1252,7 +1252,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #c7285b;
+  background: #149482;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2682,4 +2682,9 @@ header.header {
   .sidebar-active .footer-fixed {
     left: 320px;
   }
+}
+.post-body img {
+  border: 1px solid #ddd; /* 加上極細的灰線 */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.25); /* 加上明顯的陰影 */
+  border-radius: 4px; /* 讓圖片四角稍微圓潤一點點 */
 }

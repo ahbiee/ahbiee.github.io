@@ -26,11 +26,30 @@
 <meta property="og:site_name" content="ahbiee&#39;s blog">
 <meta property="og:description" content="有關XSS的資訊">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://ahbiee.github.io/images/XSS/xss-game_page.png">
+<meta property="og:image" content="https://ahbiee.github.io/images/XSS/xss-game_test.png">
+<meta property="og:image" content="https://ahbiee.github.io/images/XSS/xss-game_source.png">
+<meta property="og:image" content="https://ahbiee.github.io/images/XSS/xss-game_h1.png">
+<meta property="og:image" content="https://ahbiee.github.io/images/XSS/xss-game_alert.png">
+<meta property="og:image" content="https://ahbiee.github.io/images/XSS/xss-game_succeed.png">
+<meta property="og:image" content="https://ahbiee.github.io/images/XSS/stored_post.png">
+<meta property="og:image" content="https://ahbiee.github.io/images/XSS/stored_posted.png">
+<meta property="og:image" content="https://ahbiee.github.io/images/XSS/stored_passed.png">
+<meta property="og:image" content="https://ahbiee.github.io/images/XSS/stored_alert.png">
+<meta property="og:image" content="https://ahbiee.github.io/images/XSS/DOM_img1.png">
+<meta property="og:image" content="https://ahbiee.github.io/images/XSS/DOM_img2.png">
+<meta property="og:image" content="https://ahbiee.github.io/images/XSS/DOM_img123.png">
+<meta property="og:image" content="https://ahbiee.github.io/images/XSS/DOM_source.png">
+<meta property="og:image" content="https://ahbiee.github.io/images/XSS/DOM_jssource.png">
+<meta property="og:image" content="https://ahbiee.github.io/images/XSS/DOM_typein.png">
+<meta property="og:image" content="https://ahbiee.github.io/images/XSS/DOM_alert.png">
+<meta property="og:image" content="https://ahbiee.github.io/images/XSS/DOM_source2.png">
 <meta property="article:published_time" content="2025-12-05T11:04:04.000Z">
-<meta property="article:modified_time" content="2025-12-05T11:09:14.250Z">
+<meta property="article:modified_time" content="2025-12-05T13:25:30.386Z">
 <meta property="article:author" content="ahbiee">
 <meta property="article:tag" content="資訊安全">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://ahbiee.github.io/images/XSS/xss-game_page.png">
 
 
 <link rel="canonical" href="https://ahbiee.github.io/posts/Security_XSS/">
@@ -152,7 +171,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -165,6 +184,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Reflected-%E5%8F%8D%E5%B0%84%E5%9E%8B"><span class="nav-number">1.</span> <span class="nav-text">Reflected 反射型</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%8B%E7%B4%B9"><span class="nav-number">1.1.</span> <span class="nav-text">介紹</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AF%84%E4%BE%8B"><span class="nav-number">1.2.</span> <span class="nav-text">範例</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Stored-%E5%84%B2%E5%AD%98%E5%9E%8B"><span class="nav-number">2.</span> <span class="nav-text">Stored 儲存型</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%8B%E7%B4%B9-1"><span class="nav-number">2.1.</span> <span class="nav-text">介紹</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AF%84%E4%BE%8B-1"><span class="nav-number">2.2.</span> <span class="nav-text">範例</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#DOM"><span class="nav-number">3.</span> <span class="nav-text">DOM</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AF%84%E4%BE%8B-2"><span class="nav-number">3.1.</span> <span class="nav-text">範例</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -257,7 +277,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2025-12-05 19:04:04 / Modified: 19:09:14" itemprop="dateCreated datePublished" datetime="2025-12-05T19:04:04+08:00">2025-12-05</time>
+      <time title="Created: 2025-12-05 19:04:04 / Modified: 21:25:30" itemprop="dateCreated datePublished" datetime="2025-12-05T19:04:04+08:00">2025-12-05</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -292,6 +312,33 @@
     
     <div class="post-body" itemprop="articleBody"><span id="more"></span>
 
+<h1 id="Reflected-反射型"><a href="#Reflected-反射型" class="headerlink" title="Reflected 反射型"></a>Reflected 反射型</h1><h2 id="介紹"><a href="#介紹" class="headerlink" title="介紹"></a>介紹</h2><p>反射型XSS的主要手段是透過網站的<code>搜尋功能</code><br>假設我們在youtube搜尋<code>音樂</code>，那youtube的URL欄就會顯示</p>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query=%E9%9F%B3%E6%A8%82">https://www.youtube.com/results?search_query=音樂</a></p>
+</blockquote>
+<p>如果youtube沒有對搜索出來的URL進行過濾，且URL中包含著惡意代碼，則惡意代碼會在使用者端的網頁被執行</p>
+<h2 id="範例"><a href="#範例" class="headerlink" title="範例"></a>範例</h2><p><a target="_blank" rel="noopener" href="https://xss-game.appspot.com/">https://xss-game.appspot.com/</a><br>以此網站第一題為例，我們可以在網頁中搜尋，他會自動反饋我們搜尋的結果<br><img src="/images/XSS/xss-game_page.png" alt="page"></p>
+<p>例如輸入 test<br><img src="/images/XSS/xss-game_test.png" alt="test"></p>
+<p>我們看到網頁原始碼，可以看到使用者輸入的文字會被包在&lt;b&gt;標籤裡面<br><img src="/images/XSS/xss-game_source.png" alt="source"></p>
+<p>我們嘗試附加上&lt;h1&gt;標籤，發現網頁允許我們在URL中寫入HTML語法<br><img src="/images/XSS/xss-game_h1.png" alt="h1"></p>
+<p>因此我們就可以使用javascript的alert語法觸發漏洞<br><img src="/images/XSS/xss-game_alert.png" alt="alert"><br><img src="/images/XSS/xss-game_succeed.png" alt="succeed"></p>
+<p>這就是Reflected XSS的經典範例<br>真正的攻擊者一旦發現alert會成功被觸發，即代表網頁有該部分的漏洞，就會發起攻擊了</p>
+<h1 id="Stored-儲存型"><a href="#Stored-儲存型" class="headerlink" title="Stored 儲存型"></a>Stored 儲存型</h1><h2 id="介紹-1"><a href="#介紹-1" class="headerlink" title="介紹"></a>介紹</h2><p>常見於可以留言的網站，例如youtube影片底下的留言區<br>假設網站並沒有對使用者的留言進行過濾，而使用者在留言區輸入了惡意的script代碼<br>則網站會將代碼保存在資料庫中，且每一個點進來的其他使用者都會觸發這段代碼</p>
+<h2 id="範例-1"><a href="#範例-1" class="headerlink" title="範例"></a>範例</h2><p><a target="_blank" rel="noopener" href="https://portswigger.net/web-security/cross-site-scripting/stored/lab-html-context-nothing-encoded">https://portswigger.net/web-security/cross-site-scripting/stored/lab-html-context-nothing-encoded</a><br>以PortSwigger中的此題為例，我們可以在留言區輸入訊息，並在下一次訪問網站時會看到<br>隨便點開網頁中的一個文章，在評論區寫點東西<br><img src="/images/XSS/stored_post.png" alt="post"></p>
+<p>可以在該文章下看到自己的留言<br>並且這次我們輸入alert語法後提交<br><img src="/images/XSS/stored_posted.png" alt="posted"></p>
+<p>會發現網頁跳出通過lab的通知<br><img src="/images/XSS/stored_passed.png" alt="passed"></p>
+<p>回到網頁的文章，會發現跳出alert的框框<br><img src="/images/XSS/stored_alert.png" alt="alert"></p>
+<p>如此一來就代表我們就成功實作了Stored XSS，script成功被保存在伺服器中<br>如果有心人士將script的內部改成惡意代碼<br>那麼每一個訪問到該網站的人都會被影響（非自願!）</p>
+<h1 id="DOM"><a href="#DOM" class="headerlink" title="DOM"></a>DOM</h1><p>某些網站為了方便使用者跳轉頁面並減少對伺服器的請求<br>會直接在頁面下使用<code>#</code>的分頁，在客戶端直接進行讀取，因此不會在伺服器端被觸發<br>而攻擊者想要攻擊就需要同時具備屬性與方法<br>例如document.URL是一個屬性，document.write則是對應的方法，可以往網頁中寫內容</p>
+<h2 id="範例-2"><a href="#範例-2" class="headerlink" title="範例"></a>範例</h2><p><a target="_blank" rel="noopener" href="https://xss-game.appspot.com/">https://xss-game.appspot.com/</a><br>與Reflected XSS相同的網站，以第三題為例</p>
+<p>開啟image 1，會發現網址有#1<br><img src="/images/XSS/DOM_img1.png" alt="img1"></p>
+<p>開啟image 2，會發現網址有#2<br><img src="/images/XSS/DOM_img2.png" alt="img2"></p>
+<p>我們在#後方隨便輸入數字，發現網頁會去找該數字所存的圖片，但是找不到<br><img src="/images/XSS/DOM_img123.png" alt="img123"></p>
+<p>查看網頁原始碼，發現搜尋的內容被放在&lt;div&gt;中<br>這個&lt;div&gt;的id設為”tabContent”，id是方便javascript操作的屬性<br><img src="/images/XSS/DOM_source.png" alt="source"></p>
+<p>查看網站提供的目標javascript代碼，發現網頁在尋找圖片是透過<br>前綴網址 `&#x2F;static&#x2F;level3&#x2F;cloud” 加上 數字 num 加上 後綴格式 “.jpg` 的形式組成的<br><img src="/images/XSS/DOM_jssource.png" alt="jssource"></p>
+<p>由於這段網址是用 + 號進行網址組成，我們可以用一個<code>&#39;</code>提前截斷，導致找不到圖片所導向的網址<br>後面再加上html中，img屬性的 onerror功能，當找不到圖片所導向的網址時觸發onerror的script<br><img src="/images/XSS/DOM_typein.png" alt="typein"></p>
+<p>最終就可以成功觸發onerror的指令<br><img src="/images/XSS/DOM_alert.png" alt="alert"></p>
+<p>回去查看網頁原始碼，看到前端中的img屬性被加上了 onerror屬性<br>後面的 .jpg’ 由於是不完整的指令，因此自動跳過不觸發，成功完成了script植入<br><img src="/images/XSS/DOM_source2.png" alt="source2"></p>
 
     </div>
 
@@ -325,7 +372,7 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/posts/UVa12019/" rel="prev" title="UVa12019">
+                <a href="/posts/UVa/UVa12019/" rel="prev" title="UVa12019">
                   <i class="fa fa-angle-left"></i> UVa12019
                 </a>
             </div>
