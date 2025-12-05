@@ -12,6 +12,8 @@ description: 有關XSS的資訊
 
 <!-- more -->
 
+總結來說，XSS(Cross Site Scripting)就是透過各種方式進行惡意script的注入與執行
+
 # Reflected 反射型
 
 ## 介紹
@@ -73,8 +75,9 @@ https://portswigger.net/web-security/cross-site-scripting/stored/lab-html-contex
 # DOM
 某些網站為了方便使用者跳轉頁面並減少對伺服器的請求
 會直接在頁面下使用`#`的分頁，在客戶端直接進行讀取，因此不會在伺服器端被觸發
-而攻擊者想要攻擊就需要同時具備屬性與方法
-例如document.URL是一個屬性，document.write則是對應的方法，可以往網頁中寫內容
+而攻擊者想要攻擊就需要同時具備來源(Source)與方法(Sink)
+例如location.hash是一個來源，document.write則是可以寫入數據的方法
+資料將Source作為入口，未經過伺服器端處理後直接執行了Sink
 
 ## 範例
 https://xss-game.appspot.com/
