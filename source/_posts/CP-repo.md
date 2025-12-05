@@ -18,6 +18,8 @@ sticky: 80
 
 ## CPE 一星題
 
+### 必考
+
 - [100 The 3n + 1 problem](/posts/UVa/UVa100)
 - [118 Mutant Flatworld Explorers](/posts/UVa/UVa118)
 - [272 TeX Quotes](/posts/UVa/UVa272)
@@ -68,30 +70,49 @@ sticky: 80
 - [11461 Square Numbers](/posts/UVa/UVa11461)
 - [12019 Doom's Day Algorithm](/posts/UVa/UVa12019)
 
+### 選考
+
+- [105 The Skyline Problem](/posts/UVa/UVa105)
+- [401 Palindromes](/posts/UVa/UVa401)
+- [1585 Score](/posts/UVa/UVa1585)
+- [10082 WERTYU](/posts/UVa/UVa10082)
+- [10323 Factorial! You Must Be Kidding!!!](/posts/UVa/UVa10323)
+- [10474 Where is the Marble](/posts/UVa/UVa10474)
+- [10935 Throwing cards away I](/posts/UVa/UVa10935)
+- [12626 I love Pizza](/posts/UVa/UVa12626)
+- [12650 Dangerous Dive](/posts/UVa/UVa12650)
+
 ## Others
 
-TBD
+- [101 The Blocks Problem](/posts/UVa/UVa101)
+- [133 The Dole Queue](/posts/UVa/UVa133)
+- [156 Ananagrams](/posts/UVa/UVa156)
+- [340 Master-Mind Hints](/posts/UVa/UVa340)
+- [489 Hangman Judge](/posts/UVa/UVa489)
+- [568 Just the Facts](/posts/UVa/UVa568)
+- [623 500!](/posts/UVa/UVa623)
+- [1339 Ancient Cipher](/posts/UVa/UVa1339)
+- [1583 Digit Generator](/posts/UVa/UVa1583)
+- [1584 Circular Sequence](/posts/UVa/UVa1584)
+- [10220 I Love Big Numbers!](/posts/UVa/UVa10220)
+- [10815 Andy's First Dictionary](/posts/UVa/UVa10815)
+- [10954 Add All](/posts/UVa/UVa10954)
+- [13055 Inception](/posts/UVa/UVa13055)
 
 ---
 
 # LeetCode
 
-TBD
+- [23 Merge k Sorted List](/posts/LeetCode/23)
+- [162 Find Peak Element](/posts/LeetCode/162)
+- [215 Kth Largest Element in an Array](/posts/LeetCode/215)
+- [315 Count of Smaller Numbers After Self](/posts/LeetCode/315)
+- [493 Reverse Pairs](/posts/LeetCode/493)
+- [912 Sort an Array](/posts/LeetCode/912)
 
 ---
 
-# VJudge
+# 洛谷
 
-TBD
-
----
-
-# Luo Gu
-
-TBD
-
----
-
-# NewCoder
-
-TBD
+- [P1177【模板】排序](/posts/LuoGu/P1177)
+- [P1996 約瑟夫問題](/posts/LuoGu/P1996)
