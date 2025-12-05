@@ -1,26 +1,20 @@
 ---
 title: {{ title }}
 mathjax: true
-abbrlink:
 date: {{ date }}
-tags:
-categories:
-description:
+tags: # 併層
+    - Competitive Programming
+    - UVa 
+    - CPE一星題
+categories: # 上下層
+    - 解題紀錄
+    - UVa
 ---
+
+題目:
 
 <!-- more -->
 
-# 主題
+```cpp=
 
----
-
-# 原理
-
----
-
-# 實作
-
----
-
-# 練習題
-
+```

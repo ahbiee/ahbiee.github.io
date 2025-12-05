@@ -1,19 +1,17 @@
 ---
 title: {{ title }}
 mathjax: true
-abbrlink: 
 date: {{ date }}
-tags: 
+tags: # 併層
     - Competitive Programming
-    - UVa
+    - UVa 
     - CPE一星題
-categories:
+categories: # 上下層
     - 解題紀錄
     - UVa
 ---
 
 題目:
-
 
 <!-- more -->
 
