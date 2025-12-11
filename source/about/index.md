@@ -84,10 +84,10 @@ Department of Computer Science and Information Engineering
 | 114 GSAT 英文 | 14/15 | 10,437/117,866 (Top 8%) |
 | TOEIC | L430 R425 | - |
 | BestEP | L116 R120 S280 W305 | 菁英三獎 |
-| 智慧鐵人(Intelligence Ironman Creativity Contest) | World Final | 10/300 (Top 3%) |
+| 智慧鐵人(Intelligence Ironman Creativity Contest) | World Finals | 10/300 (Top 3%) |
 | APCS | 5+3 | - |
 | ITSA | 6/7 | - |
-| CPE | 3/7 | 226/2477 (Top 9%) |
+| CPE | 4/7 | 112/2322 (Top 4.8%) |
 | CPC Final (2024, 2025) | - | Rank 1 |
 
 > 仰以星行，俯以燈渡
