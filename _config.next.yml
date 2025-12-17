@@ -57,14 +57,14 @@ lightdark:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
+  small: /images/Frieren.jpg
+  medium: /images/Frieren.jpg
+  apple_touch_icon: /images/Frieren.jpg
+  safari_pinned_tab: /images/Frieren.jpg
   #android_manifest: /manifest.json
 
 # Custom Logo (Warning: Do not support scheme Mist)
-custom_logo: /images/Usagi.jpg
+custom_logo: /images/Frieren.jpg
 
 # Creative Commons 4.0 International License.
 # See: https://creativecommons.org/about/cclicenses/
@@ -149,7 +149,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: /images/Usagi.jpg
+  url: /images/Frieren.jpg
   # If true, the avatar will be displayed in circle.
   rounded: true
   # If true, the avatar will be rotated with the cursor.
