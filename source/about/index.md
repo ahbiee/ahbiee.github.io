@@ -23,11 +23,11 @@ Department of Computer Science and Information Engineering
 
 # ✿ Projects
 
-- Java GUI Snake Game
-    - [GitHub Repo](https://github.com/ahbiee/Java-GUI-Snake-Game)
+- [Raw RPG](https://github.com/ahbiee/Raw-RPG)
 
-- Competitive Programming Code Repository
-    - [GitHub Repo](https://github.com/ahbiee/CP-code)
+- [Java GUI Snake Game](https://github.com/ahbiee/Java-GUI-Snake-Game)
+
+- [Competitive Programming Code Repository](https://github.com/ahbiee/CP-code)
 
 ---
 
@@ -35,6 +35,7 @@ Department of Computer Science and Information Engineering
 
 - Competitive Programming
 - Information Security
+- DS&A
 
 ---
 
@@ -71,8 +72,7 @@ Department of Computer Science and Information Engineering
 - 電子工會楷模獎
 
 ## Teaching Experience
-- 遠距教學
-    - 安南國中 國三自然 2位
+- 安南國三 自然 2位
 
 ---
 
