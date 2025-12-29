@@ -78,13 +78,13 @@ Department of Computer Science and Information Engineering
 
 # ✿ Contests & Competitions
 
-| Name | Result | Rank |
+| Name | Result | Rank / Awards |
 | ---- | ------ | ---- |
 | 113 GSAT 國, 英, 數, 自 | 49/60 | 11,491/72,651 (Top 15%) |
 | 114 GSAT 英文 | 14/15 | 10,437/117,866 (Top 8%) |
 | TOEIC | L430 R425 | - |
 | BestEP | L116 R120 S280 W305 | 菁英三獎 |
-| 智慧鐵人(Intelligence Ironman Creativity Contest) | World Finals | 10/300 (Top 3%) |
+| 智慧鐵人(Intelligence Ironman Creativity Contest) | World Finals | 10/300 (Top 3%)，複決賽表現優異 |
 | APCS | 5+3 | - |
 | ITSA | 6/7 | - |
 | CPE | 4/7 | 112/2322 (Top 4.8%) |
