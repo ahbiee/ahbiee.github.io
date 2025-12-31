@@ -5,7 +5,6 @@ date: {{ date }}
 tags: # 併層
     - Competitive Programming
     - UVa 
-    - CPE一星題
 categories: # 上下層
     - 解題紀錄
     - UVa

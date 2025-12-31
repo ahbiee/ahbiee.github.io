@@ -1,11 +1,11 @@
 ---
-title: 競賽程式設計刷題
+title: 競賽程式設計刷題 List
 mathjax: true
 date: 2025-12-03 00:13:30
 tags: [Competitive Programming, UVa, LeetCode, VJudge, Luo Gu, NewCoder]
 categories:
     - 解題紀錄
-    - 清單
+    - 清單 List
 description: 存放各種 judge 的各類題目題解，請善用 Table Of Contents 或 Search功能 搜尋您想看的內容
 sticky: 80
 ---
@@ -91,9 +91,11 @@ sticky: 80
 - [489 Hangman Judge](/posts/UVa/UVa489)
 - [568 Just the Facts](/posts/UVa/UVa568)
 - [623 500!](/posts/UVa/UVa623)
+- [1225 Digit Counting](/posts/UVa/UVa1225)
 - [1339 Ancient Cipher](/posts/UVa/UVa1339)
 - [1583 Digit Generator](/posts/UVa/UVa1583)
 - [1584 Circular Sequence](/posts/UVa/UVa1584)
+- [1586 Molar Mass](/posts/UVa/UVa1586)
 - [10220 I Love Big Numbers!](/posts/UVa/UVa10220)
 - [10815 Andy's First Dictionary](/posts/UVa/UVa10815)
 - [10954 Add All](/posts/UVa/UVa10954)
