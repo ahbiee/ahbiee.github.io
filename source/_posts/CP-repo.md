@@ -89,8 +89,11 @@ sticky: 80
 - [156 Ananagrams](/posts/UVa/UVa156)
 - [340 Master-Mind Hints](/posts/UVa/UVa340)
 - [489 Hangman Judge](/posts/UVa/UVa489)
+- [514 Rails](/posts/UVa/UVa514)
 - [568 Just the Facts](/posts/UVa/UVa568)
+- [572 Oil Deposits](/posts/UVa/UVa572)
 - [623 500!](/posts/UVa/UVa623)
+- [679 Dropping Balls](/posts/UVa/UVa679)
 - [1225 Digit Counting](/posts/UVa/UVa1225)
 - [1339 Ancient Cipher](/posts/UVa/UVa1339)
 - [1583 Digit Generator](/posts/UVa/UVa1583)
@@ -99,6 +102,7 @@ sticky: 80
 - [10220 I Love Big Numbers!](/posts/UVa/UVa10220)
 - [10815 Andy's First Dictionary](/posts/UVa/UVa10815)
 - [10954 Add All](/posts/UVa/UVa10954)
+- [11988 Broken Keyboard](/posts/UVa/UVa11988)
 - [13055 Inception](/posts/UVa/UVa13055)
 
 ---
