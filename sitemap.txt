@@ -1,4 +1,5 @@
 https://ahbiee.github.io/posts/CP-repo/
+https://ahbiee.github.io/posts/LeetCode/67/
 https://ahbiee.github.io/posts/NewCoder/LineSegmentCoincide/
 https://ahbiee.github.io/posts/LeetCode/2208/
 https://ahbiee.github.io/posts/LeetCode/912/
@@ -102,7 +103,7 @@ https://ahbiee.github.io/categories/%E8%A7%A3%E9%A1%8C%E7%B4%80%E9%8C%84/
 https://ahbiee.github.io/categories/%E8%A7%A3%E9%A1%8C%E7%B4%80%E9%8C%84/LeetCode/
 https://ahbiee.github.io/categories/%E8%A7%A3%E9%A1%8C%E7%B4%80%E9%8C%84/List-%E6%B8%85%E5%96%AE/
 https://ahbiee.github.io/categories/%E8%A7%A3%E9%A1%8C%E7%B4%80%E9%8C%84/%E6%B4%9B%E8%B0%B7/
-https://ahbiee.github.io/categories/%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8/
 https://ahbiee.github.io/categories/%E8%A7%A3%E9%A1%8C%E7%B4%80%E9%8C%84/%E7%89%9B%E5%AE%A2/
+https://ahbiee.github.io/categories/%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8/
 https://ahbiee.github.io/categories/%E8%A7%A3%E9%A1%8C%E7%B4%80%E9%8C%84/UVa/
 https://ahbiee.github.io/categories/%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/
