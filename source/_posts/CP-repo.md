@@ -5,7 +5,7 @@ date: 2025-12-03 00:13:30
 tags: [Competitive Programming, UVa, LeetCode, VJudge, Luo Gu, NewCoder]
 categories:
     - 解題紀錄
-    - 清單 List
+    - List 清單
 description: 存放各種 judge 的各類題目題解，請善用 Table Of Contents 或 Search功能 搜尋您想看的內容
 sticky: 80
 ---
@@ -115,6 +115,7 @@ sticky: 80
 - [315 Count of Smaller Numbers After Self](/posts/LeetCode/315)
 - [493 Reverse Pairs](/posts/LeetCode/493)
 - [912 Sort an Array](/posts/LeetCode/912)
+- [2208 Minimum Operations to Halve Array Sum](/posts/LeetCode/2208)
 
 ---
 
@@ -122,3 +123,9 @@ sticky: 80
 
 - [P1177【模板】排序](/posts/LuoGu/P1177)
 - [P1996 約瑟夫問題](/posts/LuoGu/P1996)
+
+---
+
+# 牛客
+
+- [線段重合](/posts/NewCoder/LineSegmentCoincide)
