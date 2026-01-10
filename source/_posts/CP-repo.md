@@ -130,3 +130,4 @@ sticky: 80
 # 牛客
 
 - [線段重合](/posts/NewCoder/LineSegmentCoincide)
+- [字典樹的實現(模板)](/posts/NewCoder/trieTemplate)

@@ -3,9 +3,10 @@ title: XSS 學習筆記
 mathjax: true
 tags:
   - 資訊安全
-categories:
-  - 資訊安全
   - 學習筆記
+categories:
+  - 學習筆記
+  - 資訊安全
 date: 2025-12-05 19:04:04
 description: 有關XSS的資訊
 ---
