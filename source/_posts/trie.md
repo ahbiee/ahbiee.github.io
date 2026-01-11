@@ -110,3 +110,5 @@ void erase(string word){
 # 練習題目與題解
 
 [牛客NewCoder 字典树的实现](/posts/NewCoder/trieTemplate)
+[牛客NewCoder 接头密匙](/posts/NewCoder/CountConsistentKeys)
+[LeetCode Maximum XOR of Two Numbers in an Array](/posts/LeetCode/421)

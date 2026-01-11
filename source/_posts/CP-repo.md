@@ -114,6 +114,7 @@ sticky: 80
 - [162 Find Peak Element](/posts/LeetCode/162)
 - [215 Kth Largest Element in an Array](/posts/LeetCode/215)
 - [315 Count of Smaller Numbers After Self](/posts/LeetCode/315)
+- [421 Maximum XOR of Two Numbers in an Array](/posts/LeetCode/421)
 - [493 Reverse Pairs](/posts/LeetCode/493)
 - [912 Sort an Array](/posts/LeetCode/912)
 - [2208 Minimum Operations to Halve Array Sum](/posts/LeetCode/2208)
@@ -131,3 +132,4 @@ sticky: 80
 
 - [線段重合](/posts/NewCoder/LineSegmentCoincide)
 - [字典樹的實現(模板)](/posts/NewCoder/trieTemplate)
+- [接頭密鑰](/posts/NewCoder/CountConsistentKeys)
