@@ -112,6 +112,7 @@ sticky: 80
 - [23 Merge k Sorted List](/posts/LeetCode/23)
 - [67 Add Binary](/posts/LeetCode/67)
 - [162 Find Peak Element](/posts/LeetCode/162)
+- [212 Word Search](/posts/LeetCode/212)
 - [215 Kth Largest Element in an Array](/posts/LeetCode/215)
 - [315 Count of Smaller Numbers After Self](/posts/LeetCode/315)
 - [421 Maximum XOR of Two Numbers in an Array](/posts/LeetCode/421)
