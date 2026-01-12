@@ -15,7 +15,6 @@ description: Trie 學習筆記
 
 [學習影片：Bilibili左程云【算法讲解044【必备】前缀树原理和代码详解】](https://www.bilibili.com/video/BV1Yu4y1Q7vR/?share_source=copy_web&vd_source=e8bddcf402e9a66b9137df8d79f50934)
 [學習影片：Bilibili左程云【算法讲解045【必备】前缀树的相关题目】 ](https://www.bilibili.com/video/BV16h4y1K7Sp/?share_source=copy_web&vd_source=e8bddcf402e9a66b9137df8d79f50934)
-[學習影片：Bilibili左程云【算法讲解046【必备】构建前缀信息的技巧-解决子数组相关问题】](https://www.bilibili.com/video/BV1Sj411q7fi/?share_source=copy_web&vd_source=e8bddcf402e9a66b9137df8d79f50934)
 
 # 概述
 字典樹是一個類似於hash table的樹結構，但有著更方便的查找功能，也可以
@@ -25,8 +24,8 @@ description: Trie 學習筆記
 # 方法概要與原理
 我們依次輸入，每個字串都從根節點(頭節點, root)開始，依序將每一個字串插入到 **樹** 結構中，找到就往該節點走，找不到就新增，每一個節點：
 1. 代表一個特定字元(char)，依照字串順序插入
-2. 有一個int p，代表該節點被passed多少次，只要節點被經過就+1
-3. 有一個int e，代表有幾個字串end在這個節點，字串以該節點做 結尾就+1
+2. 有一個int passed，代表該節點被passed多少次，只要節點被經過就+1
+3. 有一個int stop，代表有幾個字串stop在這個節點，字串以該節點做 結尾就+1
 
 - 優點
   - 方便查找任意形式的字串
@@ -37,8 +36,8 @@ description: Trie 學習筆記
 # 基礎版code
 1. void init() 初始化
 2. void insert(string word) 將字串插入樹中
-3. int search(string word) 回傳符合 word 的個數 (也就是看p)
-4. int prefixNumber(string prefix) 回傳前綴為 prefix 的個數 (也就是看e)
+3. int search(string word) 回傳符合 word 的個數 (也就是看passed)
+4. int prefixNumber(string prefix) 回傳前綴為 prefix 的個數 (也就是看stop)
 5. void erase(string word) 將 word 從樹中移除
 
 使用靜態陣列實現
