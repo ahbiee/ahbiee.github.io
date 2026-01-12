@@ -3,10 +3,10 @@ title: CountConsistentKeys
 mathjax: true
 tags:
   - Competitive Programming
-  - LeetCode
+  - NowCoder
 categories:
   - 解題紀錄
-  - LeetCode
+  - NowCoder
 date: 2026-01-12 03:29:53
 ---
 

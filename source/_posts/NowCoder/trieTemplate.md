@@ -6,7 +6,7 @@ tags:
   - NewCoder
 categories:
   - 解題紀錄
-  - 牛客
+  - NowCoder
 date: 2026-01-11 03:49:44
 ---
 

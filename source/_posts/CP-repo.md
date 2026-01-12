@@ -114,23 +114,26 @@ sticky: 80
 - [162 Find Peak Element](/posts/LeetCode/162)
 - [212 Word Search](/posts/LeetCode/212)
 - [215 Kth Largest Element in an Array](/posts/LeetCode/215)
+- [303 Range Sum Query Immutable](/posts/LeetCode/303)
 - [315 Count of Smaller Numbers After Self](/posts/LeetCode/315)
 - [421 Maximum XOR of Two Numbers in an Array](/posts/LeetCode/421)
 - [493 Reverse Pairs](/posts/LeetCode/493)
+- [560 Subarray Sum Equals K](/posts/LeetCode/560)
 - [912 Sort an Array](/posts/LeetCode/912)
 - [2208 Minimum Operations to Halve Array Sum](/posts/LeetCode/2208)
 
 ---
 
-# 洛谷
+# 洛谷 LuoGu
 
 - [P1177【模板】排序](/posts/LuoGu/P1177)
 - [P1996 約瑟夫問題](/posts/LuoGu/P1996)
 
 ---
 
-# 牛客
+# 牛客 NowCoder
 
-- [線段重合](/posts/NewCoder/LineSegmentCoincide)
-- [字典樹的實現(模板)](/posts/NewCoder/trieTemplate)
-- [接頭密鑰](/posts/NewCoder/CountConsistentKeys)
+- [線段重合](/posts/NowCoder/LineSegmentCoincide)
+- [字典樹的實現(模板)](/posts/NowCoder/trieTemplate)
+- [接頭密鑰](/posts/NowCoder/CountConsistentKeys)
+- [未排序數組中累加和為給定值的最長子數組長度](/posts/NowCoder/PrefixSumOfSubarray)
