@@ -41,6 +41,8 @@ Department of Computer Science and Information Engineering
 
 # ✿ Experiences
 
+- 2026
+    - CILab | Visitor
 - 2025 
     - CPC Final | Test Creation and Solution Writing
     - FJU CPC | Speaker

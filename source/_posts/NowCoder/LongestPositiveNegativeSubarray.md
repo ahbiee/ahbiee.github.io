@@ -1,5 +1,5 @@
 ---
-title: PrefixSumOfSubarray
+title: LongestPositiveNegativeSubarray
 mathjax: true
 tags:
   - Competitive Programming
@@ -8,11 +8,11 @@ tags:
 categories:
   - 解題紀錄
   - NowCoder
-date: 2026-01-12 23:47:34
+date: 2026-01-13 18:34:17
 ---
 
 題目:
-// https://www.nowcoder.com/practice/36fb0fd3c656480c92b569258a1223d5
+https://www.nowcoder.com/practice/545544c060804eceaed0bb84fcd992fb
 
 <!-- more -->
 
@@ -31,31 +31,32 @@ using pii = pair<int, int>;
 
 #define MAXN 100005
 
-int arr[MAXN];
-int n, k;
+int arr[MAXN] = {};
+int ans[MAXN] = {};
+int n;
 
 int main() {
     ios_base::sync_with_stdio(false); cin.tie(NULL);
-    while(cin >> n >> k){
+    while(cin >> n){
         for(int i=0; i<n; ++i){
             cin >> arr[i];
+            if(arr[i] > 0) ans[i] = 1;
+            else if(arr[i] < 0) ans[i] = -1;
         }
 
         map<int, int> mp; // <prefixSum, firstIndex>
-        mp.clear();
-        mp.insert({0, -1});
+        mp.insert({0, -1}); // 0 is found at first (subarray length: -1)
 
         int sum = 0;
-        int ans = 0;
+        int answer = 0;
         for(int i=0; i<n; ++i){
-            sum += arr[i]; // 記錄截至目前為止的前綴和
-            if(mp.count(sum-k)){
-                ans = max(ans, i - mp[sum-k]);
-            }
-            if(mp.count(sum) == 0)
-                mp[sum] = i;
+            sum += ans[i];
+            if(mp.count(sum)) answer = max(answer, i - mp[sum]); // if sum already exists, we check the maximum length that we can go left
+            else mp[sum] = i;
         }
-        cout << ans << '\n';
+        cout << answer;
+
+        for(int i=0; i<n; ++i) arr[i] = ans[i] = 0;
     }
     return 0;
 }

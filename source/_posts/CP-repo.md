@@ -2,11 +2,11 @@
 title: 競賽程式設計刷題 List
 mathjax: true
 date: 2025-12-03 00:13:30
-tags: [Competitive Programming, UVa, LeetCode, VJudge, Luo Gu, NewCoder]
+tags: Competitive Programming
 categories:
     - 解題紀錄
     - List 清單
-description: 存放各種 judge 的各類題目題解，請善用 Table Of Contents 或 Search功能 搜尋您想看的內容
+description: 存放各種 judge 的各類題目題解<br>請善用左側的 Categories 或 Search功能，或 查找題解底部的Tags尋找相關題目，<br>以便於搜尋您想看的內容。
 sticky: 80
 ---
 
@@ -120,7 +120,11 @@ sticky: 80
 - [493 Reverse Pairs](/posts/LeetCode/493)
 - [560 Subarray Sum Equals K](/posts/LeetCode/560)
 - [912 Sort an Array](/posts/LeetCode/912)
+- [1124 Longest Well-Performing Interval](/posts/LeetCode/1124)
+- [1371 Find the Longest Substring Containing Vowels in Even Counts](/posts/LeetCode/1371)
+- [1590 Make Sum Divisible by P](/posts/LeetCode/1590)
 - [2208 Minimum Operations to Halve Array Sum](/posts/LeetCode/2208)
+- [3364 Minimum Positive Sum Subarray](/posts/LeetCode/3364)
 
 ---
 
@@ -137,3 +141,4 @@ sticky: 80
 - [字典樹的實現(模板)](/posts/NowCoder/trieTemplate)
 - [接頭密鑰](/posts/NowCoder/CountConsistentKeys)
 - [未排序數組中累加和為給定值的最長子數組長度](/posts/NowCoder/PrefixSumOfSubarray)
+- [無序數組中正負數個數相等的最長仔樹組長度](/posts/NowCoder/LongestPositiveNegativeSubarray)

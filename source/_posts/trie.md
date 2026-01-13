@@ -4,6 +4,7 @@ mathjax: true
 tags:
   - Competitive Programming
   - 學習筆記
+  - Trie
 categories:
   - 學習筆記
   - Competitive Programming

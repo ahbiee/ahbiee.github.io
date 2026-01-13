@@ -1,9 +1,10 @@
 ---
-title: trieTemplate
+title: TrieTemplate
 mathjax: true
 tags:
   - Competitive Programming
   - NewCoder
+  - Trie
 categories:
   - 解題紀錄
   - NowCoder

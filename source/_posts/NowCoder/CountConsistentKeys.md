@@ -4,6 +4,7 @@ mathjax: true
 tags:
   - Competitive Programming
   - NowCoder
+  - Trie
 categories:
   - 解題紀錄
   - NowCoder
