@@ -14,10 +14,10 @@ type: "about"
 
 # ✿ Education
 
-- **Fu Jen Catholic University** (Sep 2024 - Now)
+- **Fu Jen Catholic University** (Sep. 2024 - Now)
 Department of Computer Science and Information Engineering
 
-- **Nei Li Senior High School** (Sep 2021 - Jun 2024)
+- **Nei Li Senior High School** (Sep. 2021 - Jun. 2024)
 
 ---
 
@@ -82,14 +82,14 @@ Department of Computer Science and Information Engineering
 
 | Name | Result | Rank / Awards |
 | ---- | ------ | ---- |
-| 113 GSAT 國, 英, 數, 自 | 49/60 | 11,491/72,651 (Top 15%) |
-| 114 GSAT 英文 | 14/15 | 10,437/117,866 (Top 8%) |
-| TOEIC | L430 R425 | - |
+| 113 GSAT 國, 英, 數, 自 | 49/60 | 15.8% (11,491/72,651) |
+| 114 GSAT 英文 | 14/15 | 8.8% (10,437/117,866) |
+| TOEIC | L430 R425 | 5.7% |
 | BestEP | L116 R120 S280 W305 | 菁英三獎 |
-| 智慧鐵人(Intelligence Ironman Creativity Contest) | World Finals | 10/300 (Top 3%)，複決賽表現優異 |
-| APCS | 5+3 | - |
-| ITSA | 6/7 | - |
-| CPE | 4/7 | 112/2322 (Top 4.8%) |
-| CPC Final (2024, 2025) | - | Rank 1 |
+| 智慧鐵人(Intelligence Ironman Creativity Contest) | World Finals | 3.0% (10/300)，複決賽表現優異 |
+| APCS | 5+3 | 5.6% (152/2729) |
+| ITSA | 6/7 | 3.5% (12/336) |
+| CPE | 4/7 | 4.8% (112/2322) |
+| CPC Final (2024, 2025) | - | Rank 1 (1/16) |
 
 > 仰以星行，俯以燈渡
