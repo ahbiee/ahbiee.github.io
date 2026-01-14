@@ -111,6 +111,10 @@ sticky: 80
 
 - [23 Merge k Sorted List](/posts/LeetCode/23)
 - [67 Add Binary](/posts/LeetCode/67)
+- [102 Binary Tree Level Order Traversal](/posts/LeetCode/102)
+- [103 Binary Tree Zigzag Level Order Traversal](/posts/LeetCode/103)
+- [104 Maximum Depth of Binary Tree](/posts/LeetCode/104)
+- [111 Minimum Depth of Binary Tree](/posts/LeetCode/111)
 - [162 Find Peak Element](/posts/LeetCode/162)
 - [212 Word Search](/posts/LeetCode/212)
 - [215 Kth Largest Element in an Array](/posts/LeetCode/215)
@@ -119,6 +123,7 @@ sticky: 80
 - [421 Maximum XOR of Two Numbers in an Array](/posts/LeetCode/421)
 - [493 Reverse Pairs](/posts/LeetCode/493)
 - [560 Subarray Sum Equals K](/posts/LeetCode/560)
+- [662 Maximum Width of Binary Tree](/posts/LeetCode/662)
 - [912 Sort an Array](/posts/LeetCode/912)
 - [1124 Longest Well-Performing Interval](/posts/LeetCode/1124)
 - [1371 Find the Longest Substring Containing Vowels in Even Counts](/posts/LeetCode/1371)
