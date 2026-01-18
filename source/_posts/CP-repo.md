@@ -110,12 +110,14 @@ sticky: 80
 # LeetCode
 
 - [23 Merge k Sorted List](/posts/LeetCode/23)
+- [25 Reverse Nodes in k-Group](/posts/LeetCode/25)
 - [67 Add Binary](/posts/LeetCode/67)
 - [102 Binary Tree Level Order Traversal](/posts/LeetCode/102)
 - [103 Binary Tree Zigzag Level Order Traversal](/posts/LeetCode/103)
 - [104 Maximum Depth of Binary Tree](/posts/LeetCode/104)
 - [105 Construct Binary Tree from Preorder and Inorder Traversal](/posts/LeetCode/105)
 - [111 Minimum Depth of Binary Tree](/posts/LeetCode/111)
+- [160 Intersection of Two Linked Lists](/posts/LeetCode/160)
 - [162 Find Peak Element](/posts/LeetCode/162)
 - [212 Word Search](/posts/LeetCode/212)
 - [215 Kth Largest Element in an Array](/posts/LeetCode/215)
