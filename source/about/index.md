@@ -29,13 +29,14 @@ Department of Computer Science and Information Engineering
 
 - [Competitive Programming Code Repository](https://github.com/ahbiee/CP-code)
 
+- [Personal Website (here)](https://ahbiee.github.io/about)
+
 ---
 
 # ✿ Current Focuses
 
 - Competitive Programming
-- Information Security
-- DS&A
+- DSA
 
 ---
 
