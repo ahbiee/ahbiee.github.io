@@ -131,6 +131,7 @@ sticky: 80
 - [662 Maximum Width of Binary Tree](/posts/LeetCode/662)
 - [912 Sort an Array](/posts/LeetCode/912)
 - [958 Check Completeness of a Binary Tree](/posts/LeetCode/958)
+- [1109 Corporate Flight Bookings](/posts/LeetCode/1109)
 - [1124 Longest Well-Performing Interval](/posts/LeetCode/1124)
 - [1371 Find the Longest Substring Containing Vowels in Even Counts](/posts/LeetCode/1371)
 - [1590 Make Sum Divisible by P](/posts/LeetCode/1590)
@@ -143,6 +144,8 @@ sticky: 80
 
 - [P1177【模板】排序](/posts/LuoGu/P1177)
 - [P1996 約瑟夫問題](/posts/LuoGu/P1996)
+- [P4231 三步必殺](/posts/LuoGu/P4231)
+- [P5026 Lycanthropy](/posts/LuoGu/P5026)
 
 ---
 
