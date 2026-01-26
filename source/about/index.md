@@ -69,9 +69,10 @@ Department of Computer Science and Information Engineering
 - C++
 - Java
 
-## Awards
-- 113-1 Presidential Award
-- 113-2 Presidential Award
+## Academic performance & Awards
+- 113-1 Presidential Award, GPA 4.15
+- 113-2 Presidential Award, GPA 4.30
+- 114-1 Presidential Award, GPA 4.25
 - 電子工會楷模獎
 
 ## Teaching Experience
