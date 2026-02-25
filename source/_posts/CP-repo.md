@@ -102,6 +102,7 @@ sticky: 80
 - [10220 I Love Big Numbers!](/posts/UVa/UVa10220)
 - [10815 Andy's First Dictionary](/posts/UVa/UVa10815)
 - [10954 Add All](/posts/UVa/UVa10954)
+- [11490 Just Another Problem](/posts/UVa/UVa11490)
 - [11988 Broken Keyboard](/posts/UVa/UVa11988)
 - [13055 Inception](/posts/UVa/UVa13055)
 
