@@ -86,6 +86,7 @@ sticky: 80
 
 - [101 The Blocks Problem](/posts/UVa/UVa101)
 - [133 The Dole Queue](/posts/UVa/UVa133)
+- [136 Ugly Numbers](/posts/UVa/UVa136)
 - [156 Ananagrams](/posts/UVa/UVa156)
 - [340 Master-Mind Hints](/posts/UVa/UVa340)
 - [489 Hangman Judge](/posts/UVa/UVa489)
