@@ -91,6 +91,7 @@ sticky: 80
 - [340 Master-Mind Hints](/posts/UVa/UVa340)
 - [489 Hangman Judge](/posts/UVa/UVa489)
 - [514 Rails](/posts/UVa/UVa514)
+- [540 Team Queue](/posts/UVa/UVa540)
 - [568 Just the Facts](/posts/UVa/UVa568)
 - [572 Oil Deposits](/posts/UVa/UVa572)
 - [623 500!](/posts/UVa/UVa623)
