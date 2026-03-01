@@ -20,9 +20,9 @@ sticky: 100
 > 你或許可以在這裡找到很多領域的學習紀錄
 
 ## 如何使用
-1. **隨意瀏覽 Surfing**：點擊上方的 Home，尋找你有興趣的文章
-2. **分類 Categories**：點擊上方的 Categories，查看我分類好的文章
-3. **搜尋 Search**：點擊上方的 Search，快速查詢關鍵字
+1. **隨意瀏覽 Surfing**：點擊選單的 Home，尋找你有興趣的文章
+2. **分類 Categories**：點擊選單的 Categories，查看我分類好的文章
+3. **搜尋 Search**：點擊選單的 Search，快速查詢關鍵字
 
 ## 聯繫我
 如果有任何問題或技術交流，請透過網站上的 Email 或 Discord 聯繫我

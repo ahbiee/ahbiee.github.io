@@ -43,6 +43,8 @@ Department of Computer Science and Information Engineering
 # ✿ Experiences
 
 - 2026
+    - FJU CPC | Speaker
+    - CPC Winter | Speaker, Test Creation and Solution Writing
     - CILab | Visitor
 - 2025 
     - CPC Final | Test Creation and Solution Writing
@@ -52,7 +54,7 @@ Department of Computer Science and Information Engineering
     - NCPC 初賽/決賽 | Contestant
     - TOPC 初賽 | Contestant
     - PUPC 初賽 | Contestant
-    - iThome 鐵人賽 | Participant
+    - iThome 鐵人賽 | Participant, Completed
     - Hack to the Top | Participant
     - 輔大偏鄉教育 | 優良大學伴、企業傑出大學伴
 - 2024
@@ -76,7 +78,9 @@ Department of Computer Science and Information Engineering
 - 電子工會楷模獎
 
 ## Teaching Experience
-- 安南國三 自然 2位
+| 學校 | 年級 | 人數 | 科目 | 時間 | 成果 |
+| --- | ---- | ---- | --- | ---- | ---- |
+| 安南國中 | 國三 | 2 (吳O蓁, 傅O恩) | 自然 | 10週 | C -> B++ | 
 
 ---
 
@@ -86,12 +90,12 @@ Department of Computer Science and Information Engineering
 | ---- | ------ | ---- |
 | 113 GSAT 國, 英, 數, 自 | 49/60 | 15.8% (11,491/72,651) |
 | 114 GSAT 英文 | 14/15 | 8.8% (10,437/117,866) |
-| TOEIC | L430 R425 | 5.7% |
+| TOEIC | L430 R425 Total855 | 5.7% |
 | BestEP | L116 R120 S280 W305 | 菁英三獎 |
 | 智慧鐵人(Intelligence Ironman Creativity Contest) | World Finals | 3.0% (10/300)，複決賽表現優異 |
-| APCS | 5+3 | 5.6% (152/2729) |
+| 舊制APCS | 5+3 | 5.6% (152/2729) |
 | ITSA | 6/7 | 3.5% (12/336) |
 | CPE | 4/7 | 4.8% (112/2322) |
-| CPC Final (2024, 2025) | - | Rank 1 (1/16) |
+| CPC Final (2024, 2025) | 6/10 | Rank 1 (1/16) |
 
 > 仰以星行，俯以燈渡
