@@ -106,6 +106,7 @@ sticky: 80
 - [10954 Add All](/posts/UVa/UVa10954)
 - [11490 Just Another Problem](/posts/UVa/UVa11490)
 - [11988 Broken Keyboard](/posts/UVa/UVa11988)
+- [12096 The SetStack Computer](/posts/UVa/UVa12096)
 - [13055 Inception](/posts/UVa/UVa13055)
 
 ---
