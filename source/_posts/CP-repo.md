@@ -102,6 +102,7 @@ sticky: 80
 - [1584 Circular Sequence](/posts/UVa/UVa1584)
 - [1586 Molar Mass](/posts/UVa/UVa1586)
 - [10220 I Love Big Numbers!](/posts/UVa/UVa10220)
+- [10305 Ordering Tasks](/posts/UVa/UVa10305)
 - [10815 Andy's First Dictionary](/posts/UVa/UVa10815)
 - [10954 Add All](/posts/UVa/UVa10954)
 - [11490 Just Another Problem](/posts/UVa/UVa11490)
