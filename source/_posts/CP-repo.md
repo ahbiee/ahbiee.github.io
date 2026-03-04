@@ -6,7 +6,7 @@ tags: Competitive Programming
 categories:
     - 解題紀錄
     - List 清單
-description: 存放各種 judge 的各類題目題解<br>請善用左側的 Categories 或 Search功能，或 查找題解底部的Tags尋找相關題目，<br>以便於搜尋您想看的內容。
+description: 存放各種 judge 的各類題目題解<br>請善用左側的 Categories 或 Search 功能，或 查找題解底部的Tags尋找相關題目，<br>以便於搜尋您想看的內容。
 sticky: 80
 ---
 
@@ -73,12 +73,20 @@ sticky: 80
 ### 選考
 
 - [105 The Skyline Problem](/posts/UVa/UVa105)
+- [136 Ugly Numbers](/posts/UVa/UVa136)
 - [401 Palindromes](/posts/UVa/UVa401)
+- [1225 Digit Counting](/posts/UVa/UVa1225)
 - [1585 Score](/posts/UVa/UVa1585)
+- [10079 Pizza Cutting](/posts/UVa/UVa10079)
 - [10082 WERTYU](/posts/UVa/UVa10082)
 - [10323 Factorial! You Must Be Kidding!!!](/posts/UVa/UVa10323)
 - [10474 Where is the Marble](/posts/UVa/UVa10474)
 - [10935 Throwing cards away I](/posts/UVa/UVa10935)
+- [11172 Relational Operator](/posts/UVa/UVa11172)
+- [11727 Cost Cutting](/posts/UVa/UVa11727)
+- [11764 Jumping Mario](/posts/UVa/UVa11764)
+- [11988 Broken Keyboard](/posts/UVa/UVa11988)
+- [12289 One-Two-Three](/posts/UVa/UVa12289)   
 - [12626 I love Pizza](/posts/UVa/UVa12626)
 - [12650 Dangerous Dive](/posts/UVa/UVa12650)
 
@@ -86,9 +94,9 @@ sticky: 80
 
 - [101 The Blocks Problem](/posts/UVa/UVa101)
 - [133 The Dole Queue](/posts/UVa/UVa133)
-- [136 Ugly Numbers](/posts/UVa/UVa136)
 - [156 Ananagrams](/posts/UVa/UVa156)
 - [340 Master-Mind Hints](/posts/UVa/UVa340)
+- [458 Decoder](/posts/UVa/UVa458)
 - [489 Hangman Judge](/posts/UVa/UVa489)
 - [514 Rails](/posts/UVa/UVa514)
 - [540 Team Queue](/posts/UVa/UVa540)
@@ -96,7 +104,6 @@ sticky: 80
 - [572 Oil Deposits](/posts/UVa/UVa572)
 - [623 500!](/posts/UVa/UVa623)
 - [679 Dropping Balls](/posts/UVa/UVa679)
-- [1225 Digit Counting](/posts/UVa/UVa1225)
 - [1339 Ancient Cipher](/posts/UVa/UVa1339)
 - [1583 Digit Generator](/posts/UVa/UVa1583)
 - [1584 Circular Sequence](/posts/UVa/UVa1584)
@@ -107,7 +114,6 @@ sticky: 80
 - [10815 Andy's First Dictionary](/posts/UVa/UVa10815)
 - [10954 Add All](/posts/UVa/UVa10954)
 - [11490 Just Another Problem](/posts/UVa/UVa11490)
-- [11988 Broken Keyboard](/posts/UVa/UVa11988)
 - [12096 The SetStack Computer](/posts/UVa/UVa12096)
 - [13055 Inception](/posts/UVa/UVa13055)
 
