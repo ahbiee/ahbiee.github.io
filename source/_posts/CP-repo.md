@@ -114,6 +114,7 @@ sticky: 80
 - [10440 Ferry Loading II](/posts/UVa/UVa10440)
 - [10815 Andy's First Dictionary](/posts/UVa/UVa10815)
 - [10954 Add All](/posts/UVa/UVa10954)
+- [10976 Fractions Again?!](/posts/UVa/UVa10976)
 - [11490 Just Another Problem](/posts/UVa/UVa11490)
 - [12096 The SetStack Computer](/posts/UVa/UVa12096)
 - [13055 Inception](/posts/UVa/UVa13055)
