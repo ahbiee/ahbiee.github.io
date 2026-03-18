@@ -108,6 +108,7 @@ sticky: 80
 - [1583 Digit Generator](/posts/UVa/UVa1583)
 - [1584 Circular Sequence](/posts/UVa/UVa1584)
 - [1586 Molar Mass](/posts/UVa/UVa1586)
+- [1623 Enter The Dragon](/posts/UVa/UVa1623)
 - [10125 Sumsets](/posts/UVa/UVa10125)
 - [10220 I Love Big Numbers!](/posts/UVa/UVa10220)
 - [10305 Ordering Tasks](/posts/UVa/UVa10305)
