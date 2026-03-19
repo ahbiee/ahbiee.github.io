@@ -3,7 +3,7 @@ title: LineSegmentCoincide
 mathjax: true
 tags:
   - Competitive Programming
-  - NewCoder
+  - NowCoder
   - Heap
 categories:
   - 解題紀錄

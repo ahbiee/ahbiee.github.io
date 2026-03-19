@@ -3,7 +3,7 @@ title: TrieTemplate
 mathjax: true
 tags:
   - Competitive Programming
-  - NewCoder
+  - NowCoder
   - Trie
 categories:
   - 解題紀錄

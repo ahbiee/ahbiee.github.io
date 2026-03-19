@@ -163,6 +163,7 @@ sticky: 80
 
 - [P1177【模板】排序](/posts/LuoGu/P1177)
 - [P1996 約瑟夫問題](/posts/LuoGu/P1996)
+- [P3367 【模板】並查集](/posts/LuoGu/P3367)
 - [P4231 三步必殺](/posts/LuoGu/P4231)
 - [P5026 Lycanthropy](/posts/LuoGu/P5026)
 
@@ -175,3 +176,4 @@ sticky: 80
 - [接頭密鑰](/posts/NowCoder/CountConsistentKeys)
 - [未排序數組中累加和為給定值的最長子數組長度](/posts/NowCoder/PrefixSumOfSubarray)
 - [無序數組中正負數個數相等的最長仔樹組長度](/posts/NowCoder/LongestPositiveNegativeSubarray)
+- [並查集的實現](/posts/NowCoder/ImplementDisjointSet)
