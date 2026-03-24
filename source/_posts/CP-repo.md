@@ -118,6 +118,7 @@ sticky: 80
 - [10976 Fractions Again?!](/posts/UVa/UVa10976)
 - [11490 Just Another Problem](/posts/UVa/UVa11490)
 - [12096 The SetStack Computer](/posts/UVa/UVa12096)
+- [12382 Grid of Lamps](/posts/UVa/UVa12382)
 - [13055 Inception](/posts/UVa/UVa13055)
 
 ---
