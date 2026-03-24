@@ -104,6 +104,7 @@ sticky: 80
 - [572 Oil Deposits](/posts/UVa/UVa572)
 - [623 500!](/posts/UVa/UVa623)
 - [679 Dropping Balls](/posts/UVa/UVa679)
+- [725 Division](/posts/UVa/UVa725)
 - [1339 Ancient Cipher](/posts/UVa/UVa1339)
 - [1583 Digit Generator](/posts/UVa/UVa1583)
 - [1584 Circular Sequence](/posts/UVa/UVa1584)
