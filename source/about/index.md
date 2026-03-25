@@ -96,7 +96,7 @@ Department of Computer Science and Information Engineering
 | 智慧鐵人(Intelligence Ironman Creativity Contest) | World Finals | 3.0% (10/300)，複決賽表現優異 |
 | 舊制APCS | 5+3 | 5.6% (152/2729) |
 | ITSA | 6/7 | 2.5% (9/359) |
-| CPE | 4/7 | 4.8% (112/2322) |
+| CPE | 5/7 A | 1.5% (39/2535) |
 | CPC Final (2024, 2025) | 6/10 | Rank 1 (1/16) |
 
 > 仰以星行，俯以燈渡

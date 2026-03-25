@@ -99,6 +99,7 @@ sticky: 80
 - [458 Decoder](/posts/UVa/UVa458)
 - [489 Hangman Judge](/posts/UVa/UVa489)
 - [514 Rails](/posts/UVa/UVa514)
+- [536 Tree Recovery](/posts/UVa/UVa536)
 - [540 Team Queue](/posts/UVa/UVa540)
 - [568 Just the Facts](/posts/UVa/UVa568)
 - [572 Oil Deposits](/posts/UVa/UVa572)
