@@ -148,6 +148,7 @@ sticky: 80
 - [222 Count Complete Tree Nodes](/posts/LeetCode/222)
 - [297 Serialize and Deserialize Binary Tree](/posts/LeetCode/297)
 - [303 Range Sum Query Immutable](/posts/LeetCode/303)
+- [307 Range Sum Query Mutable](/posts/LeetCode/307)
 - [315 Count of Smaller Numbers After Self](/posts/LeetCode/315)
 - [421 Maximum XOR of Two Numbers in an Array](/posts/LeetCode/421)
 - [493 Reverse Pairs](/posts/LeetCode/493)
