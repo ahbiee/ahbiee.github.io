@@ -44,6 +44,7 @@ Department of Computer Science and Information Engineering
 # ✿ Experiences
 
 - 2026
+    - SITCON | Attendee
     - FJU CPC | Speaker
     - CPC Winter | Speaker, Test Creation and Solution Writing
     - CILab | Visitor
