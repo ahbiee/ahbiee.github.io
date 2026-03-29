@@ -169,6 +169,7 @@ sticky: 80
 
 - [P1177【模板】排序](/posts/LuoGu/P1177)
 - [P1996 約瑟夫問題](/posts/LuoGu/P1996)
+- [P3366 【模板】最小生成樹](/posts/LuoGu/P3366)
 - [P3367 【模板】並查集](/posts/LuoGu/P3367)
 - [P4231 三步必殺](/posts/LuoGu/P4231)
 - [P5026 Lycanthropy](/posts/LuoGu/P5026)
