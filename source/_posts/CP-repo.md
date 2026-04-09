@@ -120,6 +120,7 @@ sticky: 80
 - [10976 Fractions Again?!](/posts/UVa/UVa10976)
 - [11490 Just Another Problem](/posts/UVa/UVa11490)
 - [11572 Unique Snowflakes](/posts/UVa/UVa11572)
+- [11997 K Smallest Sum](/posts/UVa/UVa11997)
 - [12086 Potentiometers](/posts/UVa/UVa12086)
 - [12096 The SetStack Computer](/posts/UVa/UVa12096)
 - [12382 Grid of Lamps](/posts/UVa/UVa12382)
