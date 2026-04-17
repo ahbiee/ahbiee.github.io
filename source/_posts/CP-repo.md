@@ -150,6 +150,7 @@ sticky: 80
 - [212 Word Search](/posts/LeetCode/212)
 - [215 Kth Largest Element in an Array](/posts/LeetCode/215)
 - [222 Count Complete Tree Nodes](/posts/LeetCode/222)
+- [230. Kth Smallest Element in a BST](/posts/LeetCode/230)
 - [297 Serialize and Deserialize Binary Tree](/posts/LeetCode/297)
 - [303 Range Sum Query Immutable](/posts/LeetCode/303)
 - [307 Range Sum Query Mutable](/posts/LeetCode/307)
@@ -166,6 +167,9 @@ sticky: 80
 - [1590 Make Sum Divisible by P](/posts/LeetCode/1590)
 - [2208 Minimum Operations to Halve Array Sum](/posts/LeetCode/2208)
 - [3364 Minimum Positive Sum Subarray](/posts/LeetCode/3364)
+
+## Top-Interview-150
+請點擊 **[連結](/posts/LeetCode-Top-Interview-150)** 跳轉到專屬頁面
 
 ---
 
