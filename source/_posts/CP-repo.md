@@ -136,6 +136,8 @@ sticky: 80
 - [3 Longest Substring Without Repeating Characters](/posts/LeetCode/3)
 - [23 Merge k Sorted List](/posts/LeetCode/23)
 - [25 Reverse Nodes in k-Group](/posts/LeetCode/25)
+- [45 Jump Game II](/posts/LeetCode/45)
+- [55 Jump Game](/posts/LeetCode/55)
 - [67 Add Binary](/posts/LeetCode/67)
 - [76 Minimum Window Substring](/posts/LeetCode/76)
 - [102 Binary Tree Level Order Traversal](/posts/LeetCode/102)
@@ -163,12 +165,13 @@ sticky: 80
 - [958 Check Completeness of a Binary Tree](/posts/LeetCode/958)
 - [1109 Corporate Flight Bookings](/posts/LeetCode/1109)
 - [1124 Longest Well-Performing Interval](/posts/LeetCode/1124)
+- [1306 Jump Game III](/posts/LeetCode/1306);
 - [1371 Find the Longest Substring Containing Vowels in Even Counts](/posts/LeetCode/1371)
 - [1590 Make Sum Divisible by P](/posts/LeetCode/1590)
 - [2208 Minimum Operations to Halve Array Sum](/posts/LeetCode/2208)
 - [3364 Minimum Positive Sum Subarray](/posts/LeetCode/3364)
 
-## Top-Interview-150
+## Top-Interview-150 題單
 請點擊 **[連結](/posts/LeetCode-Top-Interview-150)** 跳轉到專屬頁面
 
 ---

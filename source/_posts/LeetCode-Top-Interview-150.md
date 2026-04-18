@@ -17,4 +17,51 @@ sticky: 75
 
 **[題單連結](https://leetcode.com/studyplan/top-interview-150/)**
 
+## Array / String
+- [55. Jump Game](/posts/LeetCode/55)
+- [45. Jump Game II](/posts/LeetCode/45)
+
+## Two Pointers
+
+## Sliding Window
+
+## Matrix
+
+## Hashmap
+
+## Intervals
+
+## Stack
+
+## Linked List
+
+## Binary Tree General
+
+## Binary Tree BFS
+
+## Binary Search Tree
 - [230. Kth Smallest Element in a BST](/posts/LeetCode/230)
+
+## Graph General
+
+## Graph BFS
+
+## Trie
+
+## Backtracking
+
+## Divide & Conquer
+
+## Kadane's Algorithm
+
+## Binary Search
+
+## Heap
+
+## Bit Manipulation
+
+## Math
+
+## 1D DP
+
+## Multidimensional DP

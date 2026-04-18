@@ -46,7 +46,7 @@ description: Trie 學習筆記
 int tree[MAXN][size] = {};
 int passed[MAXN] = {};
 int stop[MAXN] = {};
-// 以上陣列的0位子都是不用的
+// 以上陣列的都跳過index 0
 int cnt = 1;
 
 void init(){
