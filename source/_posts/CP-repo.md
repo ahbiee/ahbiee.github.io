@@ -139,6 +139,7 @@ sticky: 80
 - [45 Jump Game II](/posts/LeetCode/45)
 - [55 Jump Game](/posts/LeetCode/55)
 - [67 Add Binary](/posts/LeetCode/67)
+- [70 Climbing Stairs](/posts/LeetCode/70)
 - [76 Minimum Window Substring](/posts/LeetCode/76)
 - [102 Binary Tree Level Order Traversal](/posts/LeetCode/102)
 - [103 Binary Tree Zigzag Level Order Traversal](/posts/LeetCode/103)
