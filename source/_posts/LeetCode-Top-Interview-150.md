@@ -24,6 +24,7 @@ sticky: 75
 - [45. Jump Game II](/posts/LeetCode/45)
 
 ## Two Pointers
+- [125. Valid Palindrome](/posts/LeetCode/125)
 
 ## Sliding Window
 - [209. Minimum Size Subarray Sum](/posts/LeetCode/209)
