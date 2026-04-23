@@ -33,8 +33,10 @@ sticky: 75
 ## Hashmap
 
 ## Intervals
+- [228. Summary Ranges](/posts/LeetCode/228)
 
 ## Stack
+- [155. Min Stack](/posts/LeetCode/155)
 
 ## Linked List
 
