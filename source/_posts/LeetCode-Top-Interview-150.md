@@ -22,6 +22,7 @@ sticky: 75
 ## Array / String
 - [55. Jump Game](/posts/LeetCode/55)
 - [45. Jump Game II](/posts/LeetCode/45)
+- [28. Find the Index of the First Occurrence in a String](/posts/LeetCode/28)
 
 ## Two Pointers
 - [125. Valid Palindrome](/posts/LeetCode/125)

@@ -136,6 +136,7 @@ sticky: 80
 - [3 Longest Substring Without Repeating Characters](/posts/LeetCode/3)
 - [23 Merge k Sorted List](/posts/LeetCode/23)
 - [25 Reverse Nodes in k-Group](/posts/LeetCode/25)
+- [28 Find the Index of the First Occurrence in a String](/posts/LeetCode/28)
 - [45 Jump Game II](/posts/LeetCode/45)
 - [55 Jump Game](/posts/LeetCode/55)
 - [67 Add Binary](/posts/LeetCode/67)
