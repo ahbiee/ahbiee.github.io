@@ -137,6 +137,7 @@ sticky: 80
 - [3 Longest Substring Without Repeating Characters](/posts/LeetCode/3)
 - [23 Merge k Sorted List](/posts/LeetCode/23)
 - [25 Reverse Nodes in k-Group](/posts/LeetCode/25)
+- [28 Find the Index of the First Occurrence in a String](/posts/LeetCode/28)
 - [45 Jump Game II](/posts/LeetCode/45)
 - [55 Jump Game](/posts/LeetCode/55)
 - [67 Add Binary](/posts/LeetCode/67)
@@ -170,6 +171,7 @@ sticky: 80
 - [958 Check Completeness of a Binary Tree](/posts/LeetCode/958)
 - [1109 Corporate Flight Bookings](/posts/LeetCode/1109)
 - [1124 Longest Well-Performing Interval](/posts/LeetCode/1124)
+- [1143 Longest Common Subsequence](/posts/LeetCode/1143)
 - [1306 Jump Game III](/posts/LeetCode/1306);
 - [1371 Find the Longest Substring Containing Vowels in Even Counts](/posts/LeetCode/1371)
 - [1590 Make Sum Divisible by P](/posts/LeetCode/1590)
