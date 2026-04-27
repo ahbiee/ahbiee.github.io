@@ -116,6 +116,7 @@ sticky: 80
 - [10125 Sumsets](/posts/UVa/UVa10125)
 - [10220 I Love Big Numbers!](/posts/UVa/UVa10220)
 - [10305 Ordering Tasks](/posts/UVa/UVa10305)
+- [10405 Longest Common Subsequence](/posts/UVa/UVa10405)
 - [10440 Ferry Loading II](/posts/UVa/UVa10440)
 - [10515 Powers Et Al.](/posts/UVa/UVa10515)
 - [10815 Andy's First Dictionary](/posts/UVa/UVa10815)
