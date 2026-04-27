@@ -107,6 +107,7 @@ sticky: 80
 - [668 Parliament](/posts/UVa/UVa668)
 - [679 Dropping Balls](/posts/UVa/UVa679)
 - [725 Division](/posts/UVa/UVa725)
+- [1112 Mice and Maze](/posts/UVa/UVa1112)
 - [1339 Ancient Cipher](/posts/UVa/UVa1339)
 - [1583 Digit Generator](/posts/UVa/UVa1583)
 - [1584 Circular Sequence](/posts/UVa/UVa1584)
