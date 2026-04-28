@@ -47,6 +47,7 @@ sticky: 75
 ## Binary Tree BFS
 
 ## Binary Search Tree
+- [530. Minimum Absolute Difference in BST](/posts/LeetCode/230)
 - [230. Kth Smallest Element in a BST](/posts/LeetCode/230)
 
 ## Graph General

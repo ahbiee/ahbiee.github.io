@@ -164,6 +164,7 @@ sticky: 80
 - [315 Count of Smaller Numbers After Self](/posts/LeetCode/315)
 - [421 Maximum XOR of Two Numbers in an Array](/posts/LeetCode/421)
 - [493 Reverse Pairs](/posts/LeetCode/493)
+- [530 Minimum Absolute Difference in BST](/posts/LeetCode/530)
 - [560 Subarray Sum Equals K](/posts/LeetCode/560)
 - [662 Maximum Width of Binary Tree](/posts/LeetCode/662)
 - [912 Sort an Array](/posts/LeetCode/912)
