@@ -23,6 +23,8 @@ sticky: 75
 - [55. Jump Game](/posts/LeetCode/55)
 - [45. Jump Game II](/posts/LeetCode/45)
 - [28. Find the Index of the First Occurrence in a String](/posts/LeetCode/28)
+- [121. Best Time to Buy and Sell Stock](/posts/LeetCode/121)
+- [122. Best Time to Buy and Sell Stock II](/posts/LeetCode/122)
 
 ## Two Pointers
 - [125. Valid Palindrome](/posts/LeetCode/125)
