@@ -128,6 +128,7 @@ sticky: 80
 - [12032 The Monkey and the Oiled Bamboo](/posts/UVa/UVa12032)
 - [12086 Potentiometers](/posts/UVa/UVa12086)
 - [12096 The SetStack Computer](/posts/UVa/UVa12096)
+- [12321 Gas Stations](/posts/UVa/UVa12321)
 - [12382 Grid of Lamps](/posts/UVa/UVa12382)
 - [13055 Inception](/posts/UVa/UVa13055)
 
