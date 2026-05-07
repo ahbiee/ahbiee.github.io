@@ -28,6 +28,7 @@ sticky: 75
 
 ## Two Pointers
 - [125. Valid Palindrome](/posts/LeetCode/125)
+- [167. Two Sum II - Input Array Is Sorted](/posts/LeetCode/167)
 
 ## Sliding Window
 - [209. Minimum Size Subarray Sum](/posts/LeetCode/209)
