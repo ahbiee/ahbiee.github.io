@@ -55,7 +55,7 @@ Department of Computer Science and Information Engineering
 | 舊制APCS | 5+3 | 5.6% (152/2729) |
 | ITSA | 7/7 | 0.5% (2/359) |
 | CPE | 5/7 A | 1.4% (39/2704) |
-| CPC Final (2024, 2025) | 6/10 | Rank 1 (1/16) |
+| CPC Final (2024) | 6/10 | Rank 1 (1/16) |
 
 ---
 
@@ -100,8 +100,9 @@ Department of Computer Science and Information Engineering
 - 電子工會楷模獎
 
 ## Teaching Experience
-| 學校 | 年級 | 人數 | 科目 | 時間 | 成果 |
-| --- | ---- | ---- | --- | ---- | ---- |
-| 安南國中 | 國三 | 2 (吳O蓁, 傅O恩) | 自然 | 10週 | C -> B++ | 
+| 年級 | 人數 | 科目 | 時間 | 成果 |
+| ---- | ---- | --- | ---- | ---- |
+| 國三 | 2 (吳O蓁, 傅O恩) | 自然 | 10週 | C -> B++ | 
+| 小二 | 1 (吳O希) | 數學 | 一學期 | 90 -> 100 |
 
 > 仰以星行，俯以燈渡
