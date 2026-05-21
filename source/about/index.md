@@ -29,6 +29,8 @@ Department of Computer Science and Information Engineering
 
 - [Competitive Programming Code Repository](https://github.com/ahbiee/CP-code)
 
+- [學習資源 輔大資工引導](https://hackmd.io/@mhoDHUkcTqWq1jpC9wIpJA/By0-niyoI)
+
 - [Personal Website (current page)](https://ahbiee.github.io/about)
 
 ---
@@ -51,7 +53,7 @@ Department of Computer Science and Information Engineering
 | BestEP | L116 R120 S280 W305 | 菁英三獎 |
 | 智慧鐵人(Intelligence Ironman Creativity Contest) | World Finals | 3.0% (10/300)，複決賽表現優異 |
 | 舊制APCS | 5+3 | 5.6% (152/2729) |
-| ITSA | 6/7 | 2.5% (9/359) |
+| ITSA | 7/7 | 0.5% (2/359) |
 | CPE | 5/7 A | 1.4% (39/2704) |
 | CPC Final (2024, 2025) | 6/10 | Rank 1 (1/16) |
 
@@ -60,6 +62,8 @@ Department of Computer Science and Information Engineering
 # ✿ Experiences
 
 - 2026
+    - CPC Final | Test Creation and Solution Writing
+    - Revised [FJCU CSIE study resources and introductions](https://hackmd.io/@mhoDHUkcTqWq1jpC9wIpJA/By0-niyoI)
     - SITCON | Attendee
     - FJU CPC | Speaker
     - CPC Winter | Speaker, Test Creation and Solution Writing
