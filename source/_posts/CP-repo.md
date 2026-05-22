@@ -120,6 +120,7 @@ sticky: 80
 - [10130 SuperSale](/posts/UVa/UVa10130)
 - [10220 I Love Big Numbers!](/posts/UVa/UVa10220)
 - [10305 Ordering Tasks](/posts/UVa/UVa10305)
+- [10382 Watering Grass](/posts/UVa/UVa10382)
 - [10405 Longest Common Subsequence](/posts/UVa/UVa10405)
 - [10440 Ferry Loading II](/posts/UVa/UVa10440)
 - [10515 Powers Et Al.](/posts/UVa/UVa10515)
