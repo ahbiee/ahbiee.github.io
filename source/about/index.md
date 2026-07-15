@@ -39,7 +39,7 @@ Department of Computer Science and Information Engineering
 
 - Competitive Programming
 - DSA
-- Machine Learning, Reinforced Learning
+- Evolutional Computing
 
 ---
 
@@ -51,12 +51,13 @@ Department of Computer Science and Information Engineering
 | 114 GSAT 英文 | 14/15 | 8.8% (10,437/117,866) |
 | TOEIC | L430 R425 Total855 | 5.7% |
 | BestEP | L116 R120 S280 W305 | 菁英三獎 |
-| 智慧鐵人(Intelligence Ironman Creativity Contest) | World Finals | 3.0% (10/300)，複決賽表現優異 |
+| 智慧鐵人(Intelligence Ironman Creativity Contest, IICC) | World Finals | 3.0% (10/300)，複決賽表現優異 |
 | 舊制APCS | 5+3 | 5.6% (152/2729) |
 | ITSA | 7/7 | 0.5% (2/359) |
 | CPE | 5/7 A | 1.4% (39/2704) |
-| CPC Final (2024) | 6/10 | Rank 1 (1/16) |
-| 跨校聯盟程式競賽 | 10 / 300 | 進階組 - 優選 |
+| CPC Final (2024) | 6 / 10 | Rank 1 (1/16) |
+| 跨校聯盟程式競賽 | 20 / 32 題 | 10 / 300 組，進階組 - 優選 |
+| PUPC 大專院校程式競賽 | 6 / 10 題 | 14 / 75 組，銀獎 |
 
 ---
 
@@ -68,7 +69,7 @@ Department of Computer Science and Information Engineering
     - SITCON | Attendee
     - FJU CPC | Speaker
     - CPC Winter | Speaker, Test Creation and Solution Writing
-    - CILab | Visitor
+    - CILab | Researcher
 - 2025 
     - CPC Final | Test Creation and Solution Writing
     - FJU CPC | Speaker
