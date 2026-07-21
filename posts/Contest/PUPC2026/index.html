@@ -29,8 +29,9 @@
 <meta property="og:description" content="這篇為 2026 PUPC 私立大專院校程式競賽 (同為 2026 TUPC 全國科技大專校院程式競賽) 中，我有解出的題目解析 題目:link">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://ahbiee.github.io/images/Contest/2026_PUPC_Scoreboard.png">
+<meta property="og:image" content="https://ahbiee.github.io/images/Contest/place.jpg">
 <meta property="article:published_time" content="2026-07-16T14:44:34.000Z">
-<meta property="article:modified_time" content="2026-07-16T16:58:36.597Z">
+<meta property="article:modified_time" content="2026-07-21T15:34:51.856Z">
 <meta property="article:author" content="ahbiee">
 <meta property="article:tag" content="Competitive Programming">
 <meta name="twitter:card" content="summary">
@@ -268,7 +269,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2026-07-17 00:58:36" itemprop="dateModified" datetime="2026-07-17T00:58:36+08:00">2026-07-17</time>
+      <time title="Modified: 2026-07-21 23:34:51" itemprop="dateModified" datetime="2026-07-21T23:34:51+08:00">2026-07-21</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -306,7 +307,7 @@
 
 <h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><p>今年的記分板<br><img src="/images/Contest/2026_PUPC_Scoreboard.png" alt="Scoreboard"></p>
 <p>這屆拿了第 14 名，銀獎 (UltraGrammer)<br>有一題很簡單的題目當下只想到一半，沒想出完整，不然有機會再提高名次的說</p>
-<p>(獎狀待補)</p>
+<p><img src="/images/Contest/place.jpg" alt="Place"></p>
 <p>總體而言，感覺今年的題目都不難，簡單實作題就有 3 題</p>
 <h2 id="題解"><a href="#題解" class="headerlink" title="題解"></a>題解</h2><h3 id="A"><a href="#A" class="headerlink" title="A"></a>A</h3><p>A 是簡單實作題</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> kase;</span><br><span class="line">    cin &gt;&gt; kase;</span><br><span class="line">    <span class="keyword">while</span>(kase--)&#123;</span><br><span class="line">        <span class="type">int</span> a, b;</span><br><span class="line">        cin &gt;&gt; a &gt;&gt; b;</span><br><span class="line">        <span class="keyword">if</span>(a % b == <span class="number">0</span> &amp;&amp; b % a == <span class="number">0</span>)&#123;</span><br><span class="line">            cout &lt;&lt; <span class="string">&quot;Draw\n&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(a % b == <span class="number">0</span>)&#123;</span><br><span class="line">            cout &lt;&lt; <span class="string">&quot;1\n&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(b % a == <span class="number">0</span>)&#123;</span><br><span class="line">            cout &lt;&lt; <span class="string">&quot;2\n&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span>&#123;</span><br><span class="line">            cout &lt;&lt; <span class="string">&quot;Draw\n&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
