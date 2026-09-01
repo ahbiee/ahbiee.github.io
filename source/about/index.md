@@ -52,12 +52,13 @@ Department of Computer Science and Information Engineering
 | TOEIC | L430 R425 Total855 | 5.7% |
 | BestEP | L116 R120 S280 W305 | 菁英三獎 |
 | 智慧鐵人(Intelligence Ironman Creativity Contest, IICC) | World Finals | 3.0% (10/300)，複決賽表現優異 |
-| 舊制APCS | 5+3 | 5.6% (152/2729) |
-| ITSA | 7/7 | 0.5% (2/359) |
-| CPE | 5/7 A | 1.4% (39/2704) |
-| CPC Final (2024) | 6 / 10 | Rank 1 (1/16) |
-| 跨校聯盟程式競賽 | 20 / 32 題 | 10 / 300 組，進階組 - 優選 |
-| PUPC 大專院校程式競賽 | 6 / 10 題 | 14 / 75 組，銀獎 |
+| 2024 舊制APCS | 5+3 | 5.6% (152/2729) |
+| 2024 CPC Final | 6 / 10 | Rank 1 (1/16) |
+| 2025 TOPC 臺灣線上程式競賽 | 2 / 12 題 | 130 / 228 組，銅獎 |
+| 2026 ITSA | 7/7 | 0.5% (2/359) |
+| 2026 CPE | 5/7 A | 1.4% (39/2704) |
+| 2026 跨校聯盟程式競賽 | 20 / 32 題 | 10 / 300 組，進階組 - 優選 |
+| 2026 PUPC 私立大專院校程式競賽 | 6 / 10 題 | 14 / 75 組，銀獎 |
 
 ---
 
@@ -104,6 +105,8 @@ Department of Computer Science and Information Engineering
 ## Teaching Experience
 | 年級 | 人數 | 科目 | 時間 | 成果 |
 | ---- | ---- | --- | ---- | ---- |
-| 國三 | 2 (吳O蓁, 傅O恩) | 自然 | 10週 | C -> B++ | 
+| 國三(遠距) | 2 (王O蓁, 傅O恩) | 自然 | 10週 | C -> B++ | 
+| 高三(私教) | 4 | 英文 | 持續中 | 持續中 |
+| 國二(私教) | 3 | 數學 | 持續中 | 持續中 |
 
 > 仰以星行，俯以燈渡
